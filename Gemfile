@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'kaminari'
-#gem "simple_form"
+gem "simple_form"
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
