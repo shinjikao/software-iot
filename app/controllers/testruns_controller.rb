@@ -5,71 +5,45 @@ class TestrunsController < ApplicationController
 	end
 
 	def new
-		file = File.read('report.json')
-	    testrun_hash = JSON.parse(file)
-	    @testrun_hash = testrun_hash
-    
-    	testrun_hash.each do |testrun|
-			tr = Testrun.new
+		testrun_hash=params
 
-			tr.TestRun_Time = testrun['TestRun_Time']
-			tr.TestRun_Path = testrun['TestRun_Path']
-			tr.Product      = testrun['Product']
-			tr.SerialNumber = testrun['SerialNumber']
-			tr.DeviceVersion = testrun['DeviceVersion']
-			tr.AndroidVersion = testrun['AndroidVersion']
 
-			ap = App.new
-			ap.AppNumber = testrun['TestRun_Apps']['AppNumber']
-			ap.AppName = testrun['TestRun_Apps']['AppName']
-			ap.AppVersion = testrun['TestRun_Apps']['AppVersion']
-			ap.AppSKU = testrun['TestRun_Apps']['AppSKU']
-			ap.AppClass = testrun['TestRun_Apps']['AppClass']
-			ap.AppCategory = testrun['TestRun_Apps']['AppCategory']
-			ap.AppPackageName = testrun['TestRun_Apps']['AppPackageName']
-			ap.ApkStatus = testrun['TestRun_Apps']['ApkStatus']
-			ap.ApkResult = testrun['TestRun_Apps']['ApkResult']
-			ap.AppInstallResult = testrun['TestRun_Apps']['AppInstallResult']
-			ap.AppLaunchResult = testrun['TestRun_Apps']['AppLaunchResult']
-			ap.testrun = tr
-			ap.save	
-        	tr.save
-      end
+		#file = File.read('report.json')
+	   # testrun_hash = JSON.parse(file)
+	    #@testrun_hash = testrun_hash
+
+
+		tr = Testrun.new
+
+		tr.TestRun_Time = params['TestRun_Time']
+		tr.TestRun_Path = params['TestRun_Path']
+		tr.Product      = params['Product']
+		tr.SerialNumber = params['SerialNumber']
+		tr.DeviceVersion = params['DeviceVersion']
+		tr.AndroidVersion = params['AndroidVersion']
+		
+
+		ap = App.new
+		ap.AppNumber = params['TestRun_Apps']['AppNumber']
+		ap.AppName = params['TestRun_Apps']['AppName']
+		ap.AppVersion = params['TestRun_Apps']['AppVersion']
+		ap.AppSKU = params['TestRun_Apps']['AppSKU']
+		ap.AppClass = params['TestRun_Apps']['AppClass']
+		ap.AppCategory = params['TestRun_Apps']['AppCategory']
+		ap.AppPackageName = params['TestRun_Apps']['AppPackageName']
+		ap.ApkStatus = params['TestRun_Apps']['ApkStatus']
+		ap.ApkResult = params['TestRun_Apps']['ApkResult']
+		ap.AppInstallResult = params['TestRun_Apps']['AppInstallResult']
+		ap.AppLaunchResult = params['TestRun_Apps']['AppLaunchResult']
+		ap.testrun = tr
+		ap.save	
+    	tr.save
+      
        redirect_to testruns_url
 	end
 
 	def create
-	    file = File.read('report.json')
-		    testrun_hash = JSON.parse(file)
-		    @testrun_hash = testrun_hash
 	    
-	    	testrun_hash.each do |testrun|
-				tr = Testrun.new
-
-				tr.TestRun_Time = testrun['TestRun_Time']
-				tr.TestRun_Path = testrun['TestRun_Path']
-				tr.Product      = testrun['Product']
-				tr.SerialNumber = testrun['SerialNumber']
-				tr.DeviceVersion = testrun['DeviceVersion']
-				tr.AndroidVersion = testrun['AndroidVersion']
-
-				ap = App.new
-				ap.AppNumber = testrun['TestRun_Apps']['AppNumber']
-				ap.AppName = testrun['TestRun_Apps']['AppName']
-				ap.AppVersion = testrun['TestRun_Apps']['AppVersion']
-				ap.AppSKU = testrun['TestRun_Apps']['AppSKU']
-				ap.AppClass = testrun['TestRun_Apps']['AppClass']
-				ap.AppCategory = testrun['TestRun_Apps']['AppCategory']
-				ap.AppPackageName = testrun['TestRun_Apps']['AppPackageName']
-				ap.ApkStatus = testrun['TestRun_Apps']['ApkStatus']
-				ap.ApkResult = testrun['TestRun_Apps']['ApkResult']
-				ap.AppInstallResult = testrun['TestRun_Apps']['AppInstallResult']
-				ap.AppLaunchResult = testrun['TestRun_Apps']['AppLaunchResult']
-				ap.testrun = tr
-				ap.save	
-	        	tr.save
-	      end
-	       redirect_to testruns_url
 	end
 
 
@@ -84,8 +58,14 @@ class TestrunsController < ApplicationController
 	end
 
 	def destroy
+		@testrun = Testrun.find(params[:id])
+		@testrun.destroy
+		flash[:alert] = "event was successfully deleted"
+		redirect_to testruns_url
 	end
 
-	
+	def testrun_params
+		params.require(:testrun).permit(:TestRun_Time)
+	end
 
 end
