@@ -1,0 +1,23 @@
+<ul>
+<% @apps.each do |app| %>
+	<li>
+		#<%= app.AppNumber %>
+		<%= app.AppName %>
+		<%= app.AppPackageName %>
+
+		<%= app.AppClass %>
+		<%= app.AppCategory %>
+		<%= app.ApkStatus %>
+		<%= app.ApkResult %>
+
+		<%= app.AppInstallResult %>
+		<%= app.AppLaunchResult %>
+	    <%= link_to 'show', testrun_app_path(@testrun, app) %>
+	    <%= link_to 'edit', edit_testrun_app_path(@testrun, app) %>
+		<%= link_to 'destroy', testrun_app_path(@testrun, app),:method => :delete %>
+	</li>
+<% end %>
+
+</ul>
+
+	  <%= link_to 'back index', testruns_path %>

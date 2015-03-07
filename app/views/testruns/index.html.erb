@@ -1,0 +1,13 @@
+<ul>
+<% @testruns.each do |testrun| %>
+  <li>
+	<%= link_to testrun.TestRun_Time, testrun_apps_path(testrun) %>
+	<%= testrun.TestRun_Path%>
+	<%= testrun.Product%>
+	<%= testrun.SerialNumber%>
+	<%= testrun.DeviceVersion%>
+	<%= testrun.AndroidVersion%>
+
+   </li>
+<% end %>
+</ul>

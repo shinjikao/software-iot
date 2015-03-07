@@ -1,0 +1,15 @@
+[
+{
+"TestRun_Time":2015,
+"TestRun_Path":"D://iot/app/line.apk",
+"Product":"ASUS-A500CG",
+"SerialNumber":"1234567890",
+"DeviceVersion":"5.1.23",
+"AndroidVersion":"5.0",
+"TestRun_Apps":
+{"AppNumber":1,"AppName":"LINE 旅遊大亨","AppVersion":"1.0.1","AppSKU":"TW","AppClass":"Game","AppCategory":"休閒","AppPackageName":"com.linecorp.LGGRTW","ApkStatus":"Validated","ApkResult":"Pass","AppInstallResult":"Pass","AppLaunchResult":"Pass"
+}
+}
+
+
+]
