@@ -6,10 +6,16 @@
 "SerialNumber":"1234567890",
 "DeviceVersion":"5.1.23",
 "AndroidVersion":"5.0",
-"TestRun_Apps":
-{"AppNumber":1,"AppName":"LINE 旅遊大亨","AppVersion":"1.0.1","AppSKU":"TW","AppClass":"Game","AppCategory":"休閒","AppPackageName":"com.linecorp.LGGRTW","ApkStatus":"Validated","ApkResult":"Pass","AppInstallResult":"Pass","AppLaunchResult":"Pass"
+"TestRun_Apps":[
+{
+	"AppNumber":1,"AppName":"LINE 旅遊大亨","AppVersion":"1.0.1","AppSKU":"TW","AppClass":"Game","AppCategory":"休閒","AppPackageName":"com.linecorp.LGGRTW","ApkStatus":"Validated","ApkResult":"Pass","AppInstallResult":"Pass","AppLaunchResult":"Pass"
+},
+{
+	"AppNumber":1,"AppName":"FACEBOOK","AppVersion":"2.2.2","AppSKU":"TW","AppClass":"Application","AppCategory":"social","AppPackageName":"com.facebook.fb","ApkStatus":"Validated","ApkResult":"Pass","AppInstallResult":"Pass","AppLaunchResult":"Pass"
+},
+{
+	"AppNumber":1,"AppName":"ASUS","AppVersion":"0.0.0","AppSKU":"TW","AppClass":"Application","AppCategory":"social","AppPackageName":"com.facebook.fb","ApkStatus":"Validated","ApkResult":"Pass","AppInstallResult":"Pass","AppLaunchResult":"Pass"
 }
+]
 }
-
-
 ]
