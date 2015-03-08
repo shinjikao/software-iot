@@ -8958,3 +8958,186 @@ TypeError (no implicit conversion of String into Integer):
   Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
   Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.4ms)
   Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (29.5ms)
+
+
+Started GET "/testruns/new" for ::1 at 2015-03-09 00:50:11 +0800
+Processing by TestrunsController#new as HTML
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "testruns" ("TestRun_Time", "TestRun_Path", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["TestRun_Time", "2015"], ["TestRun_Path", "D://iot/app/line.apk"], ["Product", "ASUS-A500CG"], ["SerialNumber", "1234567890"], ["DeviceVersion", "5.1.23"], ["AndroidVersion", "5.0"], ["created_at", "2015-03-08 16:50:12.106473"], ["updated_at", "2015-03-08 16:50:12.106473"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "apps" ("AppNumber", "AppName", "AppVersion", "AppSKU", "AppClass", "AppCategory", "AppPackageName", "ApkStatus", "ApkResult", "AppInstallResult", "AppLaunchResult", "testrun_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["AppNumber", "1"], ["AppName", "LINE 旅遊大亨"], ["AppVersion", "1.0.1"], ["AppSKU", "TW"], ["AppClass", "Game"], ["AppCategory", "休閒"], ["AppPackageName", "com.linecorp.LGGRTW"], ["ApkStatus", "Validated"], ["ApkResult", "Pass"], ["AppInstallResult", "Pass"], ["AppLaunchResult", "Pass"], ["testrun_id", 52], ["created_at", "2015-03-08 16:50:12.108664"], ["updated_at", "2015-03-08 16:50:12.108664"]]
+  [1m[36m (9.3ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "apps" ("AppNumber", "AppName", "AppVersion", "AppSKU", "AppClass", "AppCategory", "AppPackageName", "ApkStatus", "ApkResult", "AppInstallResult", "AppLaunchResult", "testrun_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["AppNumber", "1"], ["AppName", "FACEBOOK"], ["AppVersion", "2.2.2"], ["AppSKU", "TW"], ["AppClass", "Application"], ["AppCategory", "social"], ["AppPackageName", "com.facebook.fb"], ["ApkStatus", "Validated"], ["ApkResult", "Pass"], ["AppInstallResult", "Pass"], ["AppLaunchResult", "Pass"], ["testrun_id", 52], ["created_at", "2015-03-08 16:50:12.121695"], ["updated_at", "2015-03-08 16:50:12.121695"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "apps" ("AppNumber", "AppName", "AppVersion", "AppSKU", "AppClass", "AppCategory", "AppPackageName", "ApkStatus", "ApkResult", "AppInstallResult", "AppLaunchResult", "testrun_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["AppNumber", "1"], ["AppName", "ASUS"], ["AppVersion", "0.0.0"], ["AppSKU", "TW"], ["AppClass", "Application"], ["AppCategory", "social"], ["AppPackageName", "com.facebook.fb"], ["ApkStatus", "Validated"], ["ApkResult", "Pass"], ["AppInstallResult", "Pass"], ["AppLaunchResult", "Pass"], ["testrun_id", 52], ["created_at", "2015-03-08 16:50:12.126387"], ["updated_at", "2015-03-08 16:50:12.126387"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  Rendered testruns/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 88ms (Views: 41.0ms | ActiveRecord: 12.9ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 00:50:12 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-09 00:50:12 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 00:50:12 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 00:50:12 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-09 00:50:12 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-09 00:50:12 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-09 00:50:12 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 00:50:12 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-09 00:50:12 +0800
+
+
+Started GET "/testruns/new?TestRun_Time=2020&TestRun_Path=d" for ::1 at 2015-03-09 00:50:21 +0800
+Processing by TestrunsController#new as HTML
+  Parameters: {"TestRun_Time"=>"2020", "TestRun_Path"=>"d"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "testruns" ("TestRun_Time", "TestRun_Path", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["TestRun_Time", "2015"], ["TestRun_Path", "D://iot/app/line.apk"], ["Product", "ASUS-A500CG"], ["SerialNumber", "1234567890"], ["DeviceVersion", "5.1.23"], ["AndroidVersion", "5.0"], ["created_at", "2015-03-08 16:50:21.696032"], ["updated_at", "2015-03-08 16:50:21.696032"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "apps" ("AppNumber", "AppName", "AppVersion", "AppSKU", "AppClass", "AppCategory", "AppPackageName", "ApkStatus", "ApkResult", "AppInstallResult", "AppLaunchResult", "testrun_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["AppNumber", "1"], ["AppName", "LINE 旅遊大亨"], ["AppVersion", "1.0.1"], ["AppSKU", "TW"], ["AppClass", "Game"], ["AppCategory", "休閒"], ["AppPackageName", "com.linecorp.LGGRTW"], ["ApkStatus", "Validated"], ["ApkResult", "Pass"], ["AppInstallResult", "Pass"], ["AppLaunchResult", "Pass"], ["testrun_id", 53], ["created_at", "2015-03-08 16:50:21.699083"], ["updated_at", "2015-03-08 16:50:21.699083"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "apps" ("AppNumber", "AppName", "AppVersion", "AppSKU", "AppClass", "AppCategory", "AppPackageName", "ApkStatus", "ApkResult", "AppInstallResult", "AppLaunchResult", "testrun_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["AppNumber", "1"], ["AppName", "FACEBOOK"], ["AppVersion", "2.2.2"], ["AppSKU", "TW"], ["AppClass", "Application"], ["AppCategory", "social"], ["AppPackageName", "com.facebook.fb"], ["ApkStatus", "Validated"], ["ApkResult", "Pass"], ["AppInstallResult", "Pass"], ["AppLaunchResult", "Pass"], ["testrun_id", 53], ["created_at", "2015-03-08 16:50:21.704024"], ["updated_at", "2015-03-08 16:50:21.704024"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "apps" ("AppNumber", "AppName", "AppVersion", "AppSKU", "AppClass", "AppCategory", "AppPackageName", "ApkStatus", "ApkResult", "AppInstallResult", "AppLaunchResult", "testrun_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["AppNumber", "1"], ["AppName", "ASUS"], ["AppVersion", "0.0.0"], ["AppSKU", "TW"], ["AppClass", "Application"], ["AppCategory", "social"], ["AppPackageName", "com.facebook.fb"], ["ApkStatus", "Validated"], ["ApkResult", "Pass"], ["AppInstallResult", "Pass"], ["AppLaunchResult", "Pass"], ["testrun_id", 53], ["created_at", "2015-03-08 16:50:21.709606"], ["updated_at", "2015-03-08 16:50:21.709606"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  Rendered testruns/new.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 179ms (Views: 153.3ms | ActiveRecord: 3.7ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 00:50:21 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 00:50:21 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-09 00:50:21 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-09 00:50:21 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-09 00:50:21 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 00:50:21 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-09 00:50:21 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 00:50:21 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-09 00:50:21 +0800
+
+
+Started GET "/testruns/new?TestRun_Time=2020&TestRun_Path=d" for ::1 at 2015-03-09 00:50:26 +0800
+Processing by TestrunsController#new as HTML
+  Parameters: {"TestRun_Time"=>"2020", "TestRun_Path"=>"d"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "testruns" ("TestRun_Time", "TestRun_Path", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["TestRun_Time", "2015"], ["TestRun_Path", "D://iot/app/line.apk"], ["Product", "ASUS-A500CG"], ["SerialNumber", "1234567890"], ["DeviceVersion", "5.1.23"], ["AndroidVersion", "5.0"], ["created_at", "2015-03-08 16:50:26.454629"], ["updated_at", "2015-03-08 16:50:26.454629"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "apps" ("AppNumber", "AppName", "AppVersion", "AppSKU", "AppClass", "AppCategory", "AppPackageName", "ApkStatus", "ApkResult", "AppInstallResult", "AppLaunchResult", "testrun_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["AppNumber", "1"], ["AppName", "LINE 旅遊大亨"], ["AppVersion", "1.0.1"], ["AppSKU", "TW"], ["AppClass", "Game"], ["AppCategory", "休閒"], ["AppPackageName", "com.linecorp.LGGRTW"], ["ApkStatus", "Validated"], ["ApkResult", "Pass"], ["AppInstallResult", "Pass"], ["AppLaunchResult", "Pass"], ["testrun_id", 54], ["created_at", "2015-03-08 16:50:26.456731"], ["updated_at", "2015-03-08 16:50:26.456731"]]
+  [1m[36m (8.1ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "apps" ("AppNumber", "AppName", "AppVersion", "AppSKU", "AppClass", "AppCategory", "AppPackageName", "ApkStatus", "ApkResult", "AppInstallResult", "AppLaunchResult", "testrun_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["AppNumber", "1"], ["AppName", "FACEBOOK"], ["AppVersion", "2.2.2"], ["AppSKU", "TW"], ["AppClass", "Application"], ["AppCategory", "social"], ["AppPackageName", "com.facebook.fb"], ["ApkStatus", "Validated"], ["ApkResult", "Pass"], ["AppInstallResult", "Pass"], ["AppLaunchResult", "Pass"], ["testrun_id", 54], ["created_at", "2015-03-08 16:50:26.470597"], ["updated_at", "2015-03-08 16:50:26.470597"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "apps" ("AppNumber", "AppName", "AppVersion", "AppSKU", "AppClass", "AppCategory", "AppPackageName", "ApkStatus", "ApkResult", "AppInstallResult", "AppLaunchResult", "testrun_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["AppNumber", "1"], ["AppName", "ASUS"], ["AppVersion", "0.0.0"], ["AppSKU", "TW"], ["AppClass", "Application"], ["AppCategory", "social"], ["AppPackageName", "com.facebook.fb"], ["ApkStatus", "Validated"], ["ApkResult", "Pass"], ["AppInstallResult", "Pass"], ["AppLaunchResult", "Pass"], ["testrun_id", 54], ["created_at", "2015-03-08 16:50:26.476233"], ["updated_at", "2015-03-08 16:50:26.476233"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.0ms)[0m  [1mcommit transaction[0m
+  Rendered testruns/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 157ms (Views: 125.5ms | ActiveRecord: 10.9ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 00:50:26 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-09 00:50:26 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-09 00:50:26 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-09 00:50:26 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-09 00:50:26 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 00:50:26 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 00:50:26 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 00:50:26 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-09 00:50:26 +0800
+
+
+Started GET "/testruns/new?TestRun_Time=2020&TestRun_Path=d" for ::1 at 2015-03-09 00:50:36 +0800
+Processing by TestrunsController#new as HTML
+  Parameters: {"TestRun_Time"=>"2020", "TestRun_Path"=>"d"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "testruns" ("TestRun_Time", "TestRun_Path", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["TestRun_Time", "2015"], ["TestRun_Path", "D://iot/app/line.apk"], ["Product", "ASUS-A500CG"], ["SerialNumber", "1234567890"], ["DeviceVersion", "5.1.23"], ["AndroidVersion", "5.0"], ["created_at", "2015-03-08 16:50:36.202493"], ["updated_at", "2015-03-08 16:50:36.202493"]]
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "apps" ("AppNumber", "AppName", "AppVersion", "AppSKU", "AppClass", "AppCategory", "AppPackageName", "ApkStatus", "ApkResult", "AppInstallResult", "AppLaunchResult", "testrun_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["AppNumber", "1"], ["AppName", "LINE 旅遊大亨"], ["AppVersion", "1.0.1"], ["AppSKU", "TW"], ["AppClass", "Game"], ["AppCategory", "休閒"], ["AppPackageName", "com.linecorp.LGGRTW"], ["ApkStatus", "Validated"], ["ApkResult", "Pass"], ["AppInstallResult", "Pass"], ["AppLaunchResult", "Pass"], ["testrun_id", 55], ["created_at", "2015-03-08 16:50:36.205127"], ["updated_at", "2015-03-08 16:50:36.205127"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "apps" ("AppNumber", "AppName", "AppVersion", "AppSKU", "AppClass", "AppCategory", "AppPackageName", "ApkStatus", "ApkResult", "AppInstallResult", "AppLaunchResult", "testrun_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["AppNumber", "1"], ["AppName", "FACEBOOK"], ["AppVersion", "2.2.2"], ["AppSKU", "TW"], ["AppClass", "Application"], ["AppCategory", "social"], ["AppPackageName", "com.facebook.fb"], ["ApkStatus", "Validated"], ["ApkResult", "Pass"], ["AppInstallResult", "Pass"], ["AppLaunchResult", "Pass"], ["testrun_id", 55], ["created_at", "2015-03-08 16:50:36.210704"], ["updated_at", "2015-03-08 16:50:36.210704"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "apps" ("AppNumber", "AppName", "AppVersion", "AppSKU", "AppClass", "AppCategory", "AppPackageName", "ApkStatus", "ApkResult", "AppInstallResult", "AppLaunchResult", "testrun_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["AppNumber", "1"], ["AppName", "ASUS"], ["AppVersion", "0.0.0"], ["AppSKU", "TW"], ["AppClass", "Application"], ["AppCategory", "social"], ["AppPackageName", "com.facebook.fb"], ["ApkStatus", "Validated"], ["ApkResult", "Pass"], ["AppInstallResult", "Pass"], ["AppLaunchResult", "Pass"], ["testrun_id", 55], ["created_at", "2015-03-08 16:50:36.216375"], ["updated_at", "2015-03-08 16:50:36.216375"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  Rendered testruns/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 171ms (Views: 124.1ms | ActiveRecord: 4.6ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-09 00:50:36 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-09 00:50:36 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 00:50:36 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 00:50:36 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-09 00:50:36 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-09 00:50:36 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 00:50:36 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-09 00:50:36 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 00:50:36 +0800

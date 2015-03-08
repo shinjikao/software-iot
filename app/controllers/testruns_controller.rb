@@ -7,16 +7,16 @@ class TestrunsController < ApplicationController
 	def new
 		
 		#testrun_hash=params
-		
+		@json_obj=params
 
 		file = File.read('report.json')
 	    testrun_hash = JSON.parse(file)
 	    
 	    
-		#testrun_hash.each do |hash|
-	    params.each do |hash|
+		testrun_hash.each do |hash|
+	    #params.each do |hash|
 		tr = Testrun.new
-		@json_obj = hash
+		
 		tr.TestRun_Time = hash['TestRun_Time']
 		tr.TestRun_Path = hash['TestRun_Path']
 		tr.Product      = hash['Product']
