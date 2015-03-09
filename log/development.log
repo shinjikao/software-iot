@@ -9141,3 +9141,344 @@ Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for
 
 
 Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 00:50:36 +0800
+
+
+Started GET "/testruns/create" for ::1 at 2015-03-09 01:03:34 +0800
+Processing by TestrunsController#show as HTML
+  Parameters: {"id"=>"create"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 2ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-09 01:03:34 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.3ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (7.4ms)
+Completed 200 OK in 132ms (Views: 128.1ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 01:03:34 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 01:03:34 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-09 01:03:34 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 01:03:34 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-09 01:03:34 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-09 01:03:34 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-09 01:03:34 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 01:03:34 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-09 01:03:34 +0800
+
+
+Started DELETE "/testruns/55" for ::1 at 2015-03-09 01:03:38 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ha8ZvemggAtZbPoDHc73VtTil0MtQOaTqUltOTsZFh/rFj0zwiv/uLUcSZYO7LFPGf2wzVOOEcMsM4lIMxcqkg==", "id"=>"55"}
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 55]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "testruns" WHERE "testruns"."id" = ?[0m  [["id", 55]]
+  [1m[35m (8.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 13ms (ActiveRecord: 9.2ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-09 01:03:38 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 40ms (Views: 39.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 01:03:39 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-09 01:03:39 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-09 01:03:39 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-09 01:03:39 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 01:03:39 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-09 01:03:39 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 01:03:39 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 01:03:39 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-09 01:03:39 +0800
+
+
+Started DELETE "/testruns/54" for ::1 at 2015-03-09 01:03:39 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"JVu6+Z3oXstdqGAuu/GVDoo4BMzx0wIoLPopFoXTYMxL4p53tmMheLHY07uo09MXRycjQo8d9XipgM1njd1cQQ==", "id"=>"54"}
+  [1m[35mTestrun Load (0.2ms)[0m  SELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1  [["id", 54]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "testruns" WHERE "testruns"."id" = ?  [["id", 54]]
+  [1m[36m (9.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 13ms (ActiveRecord: 9.7ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-09 01:03:39 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.1ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 125ms (Views: 124.4ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-09 01:03:39 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 01:03:39 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 01:03:39 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-09 01:03:39 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-09 01:03:39 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-09 01:03:39 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 01:03:39 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-09 01:03:39 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 01:03:39 +0800
+
+
+Started DELETE "/testruns/53" for ::1 at 2015-03-09 01:03:40 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"epJ+hBA8TeYBQWgqIGyM9ozq9hdnzUxGbB2ANlGDdYkUK1oKO7cyVe0x278zTsrvQfXRmRkDuxbpZ2RHWY1JBA==", "id"=>"53"}
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 53]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "testruns" WHERE "testruns"."id" = ?[0m  [["id", 53]]
+  [1m[35m (9.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 12ms (ActiveRecord: 9.6ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-09 01:03:40 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 01:03:40 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-09 01:03:40 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-09 01:03:40 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 01:03:40 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-09 01:03:40 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-09 01:03:40 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 01:03:40 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 01:03:40 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-09 01:03:40 +0800
+
+
+Started DELETE "/testruns/52" for ::1 at 2015-03-09 01:03:40 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"smGMdDEsSmhW1PpzNYbc57jubff/S0ZXsWdPX/vt1Bfc2Kj6Gqc127qkSeYmpJr+dfFKeYGFsQc0Hasu8+Pomg==", "id"=>"52"}
+  [1m[35mTestrun Load (0.1ms)[0m  SELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1  [["id", 52]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "testruns" WHERE "testruns"."id" = ?  [["id", 52]]
+  [1m[36m (8.5ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 12ms (ActiveRecord: 8.9ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-09 01:03:41 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.1ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 01:03:41 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-09 01:03:41 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-09 01:03:41 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-09 01:03:41 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 01:03:41 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-09 01:03:41 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 01:03:41 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 01:03:41 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-09 01:03:41 +0800
+
+
+Started DELETE "/testruns/51" for ::1 at 2015-03-09 01:03:41 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"DAHQuWb+9pSvYmp67i6FmWY34cbN4MzDfJgQzV+8aH1iuPQ3TXWJJ0MS2e/9DMOAqyjGSLMuO5P54vS8V7JU8A==", "id"=>"51"}
+  [1m[36mTestrun Load (0.3ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 51]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "testruns" WHERE "testruns"."id" = ?[0m  [["id", 51]]
+  [1m[35m (9.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 12ms (ActiveRecord: 9.6ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-09 01:03:41 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 124ms (Views: 123.3ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 01:03:41 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-09 01:03:41 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 01:03:41 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-09 01:03:41 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-09 01:03:41 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-09 01:03:41 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 01:03:41 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 01:03:41 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-09 01:03:41 +0800
+
+
+Started GET "/testruns/create" for ::1 at 2015-03-09 01:03:45 +0800
+Processing by TestrunsController#show as HTML
+  Parameters: {"id"=>"create"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 1ms (ActiveRecord: 0.0ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-09 01:03:45 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.1ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 40ms (Views: 39.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 01:03:45 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 01:03:45 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-09 01:03:45 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-09 01:03:45 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-09 01:03:45 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-09 01:03:45 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 01:03:45 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 01:03:45 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-09 01:03:45 +0800
+
+
+Started GET "/testruns" for ::1 at 2015-03-09 01:03:48 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 121ms (Views: 120.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-09 01:03:48 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 01:03:48 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-09 01:03:48 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-09 01:03:48 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 01:03:48 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-09 01:03:48 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-09 01:03:48 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-09 01:03:48 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-09 01:03:48 +0800
