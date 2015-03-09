@@ -23,15 +23,14 @@ class TestrunsController < ApplicationController
 		
 		tr.TestRun_Time = hash['TestRun_Time']
 		tr.TestRun_Path = hash['TestRun_Path']
+		tr.Product      = hash['Product']
+		tr.SerialNumber = hash['SerialNumber']
+		tr.DeviceVersion = hash['DeviceVersion']
+		tr.AndroidVersion = hash['AndroidVersion']
+		
 
-		@Time = hash['TestRun_Time']
-		@Path = hash['TestRun_Path']
-		
-		#tr.Product      = hash['Product']
-		#tr.SerialNumber = hash['SerialNumber']
-		#tr.DeviceVersion = hash['DeviceVersion']
-		#tr.AndroidVersion = hash['AndroidVersion']
-		
+@Apps = hash['TestRun_Apps']
+
 		#hash['TestRun_Apps'].each do | app|
 	    	
 		#	ap = App.new
