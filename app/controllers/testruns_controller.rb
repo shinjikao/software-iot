@@ -9,9 +9,7 @@ class TestrunsController < ApplicationController
 		#testrun_hash=params
 		@json_obj=params
 
-		@isAString = params.is_a? String
-		@isAHash = params.is_a? Hash
-		@isAJSON = params.is_a? JSON
+
 		
 
 
@@ -28,30 +26,30 @@ class TestrunsController < ApplicationController
 
 		@Time = hash['TestRun_Time']
 		@Path = hash['TestRun_Path']
-		=begin
-		tr.Product      = hash['Product']
-		tr.SerialNumber = hash['SerialNumber']
-		tr.DeviceVersion = hash['DeviceVersion']
-		tr.AndroidVersion = hash['AndroidVersion']
 		
-		hash['TestRun_Apps'].each do | app|
+		#tr.Product      = hash['Product']
+		#tr.SerialNumber = hash['SerialNumber']
+		#tr.DeviceVersion = hash['DeviceVersion']
+		#tr.AndroidVersion = hash['AndroidVersion']
+		
+		#hash['TestRun_Apps'].each do | app|
 	    	
-			ap = App.new
-			ap.AppNumber = app['AppNumber']
-			ap.AppName = app['AppName']
-			ap.AppVersion =app['AppVersion']
-			ap.AppSKU = app['AppSKU']
-			ap.AppClass = app['AppClass']
-			ap.AppCategory = app['AppCategory']
-			ap.AppPackageName = app['AppPackageName']
-			ap.ApkStatus = app['ApkStatus']
-			ap.ApkResult = app['ApkResult']
-			ap.AppInstallResult = app['AppInstallResult']
-			ap.AppLaunchResult = app['AppLaunchResult']
-			ap.testrun = tr
-			ap.save	
-			end
-		=end
+		#	ap = App.new
+		#	ap.AppNumber = app['AppNumber']
+		#	ap.AppName = app['AppName']
+		#	ap.AppVersion =app['AppVersion']
+		#	ap.AppSKU = app['AppSKU']
+		#	ap.AppClass = app['AppClass']
+		#	ap.AppCategory = app['AppCategory']
+		#	ap.AppPackageName = app['AppPackageName']
+		#	ap.ApkStatus = app['ApkStatus']
+		#	ap.ApkResult = app['ApkResult']
+		#	ap.AppInstallResult = app['AppInstallResult']
+		#	ap.AppLaunchResult = app['AppLaunchResult']
+		#	ap.testrun = tr
+		#	ap.save	
+		#	end
+		
 			tr.save
 		end
       	
