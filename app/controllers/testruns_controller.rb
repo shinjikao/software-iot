@@ -7,42 +7,19 @@ class TestrunsController < ApplicationController
 	def new
 		
 		#testrun_hash=params
-		testrun_hash = JSON.parse(params)
-		@hh = JSON.parse(params)
+		
+		@hh = params['TestRun_Time']
 
-		#file = File.read('report0310.json')
-	    #testrun_hash = JSON.parse(file)
+		file = File.read('report0310.json')
+	    testrun_hash = JSON.parse(file)
 
 	    tr = Testrun.new
-			
 		tr.TestRun_Time = testrun_hash['TestRun_Time']
 		tr.Product      = testrun_hash['Product']
 		tr.SerialNumber = testrun_hash['SerialNumber']
 		tr.DeviceVersion = testrun_hash['DeviceVersion']
 		tr.AndroidVersion = testrun_hash['AndroidVersion']
-		
-		testrun_hash['TestRun_Apps'].each do |app|			
-			ap = App.new
-			ap.AppNumber = app['AppNumber']
-			ap.AppName = app['AppName']
-			ap.AppVersion =app['AppVersion']
-			ap.AppSKU = app['AppSKU']
-		    ap.AppClass =app['AppClass']
-		    ap.AppCategory =app['AppCategory']
-		    ap.AppPackageName = app['AppPackageName']
-		    ap.ApkStatus = app['ApkStatus']
-		    ap.ApkResult = app['ApkResult']
-		    ap.AppInstallResult = app['AppInstallResult']
-		    ap.AppLaunchResult =app['AppLaunchResult']
-			ap.testrun = tr
-			ap.save	
-			end
-
-		
-			
-		
-	
-			tr.save
+		tr.save
 		
       	
     	#redirect_to testruns_url
