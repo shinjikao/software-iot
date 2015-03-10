@@ -11,12 +11,13 @@ class TestrunsController < ApplicationController
 		
 		#file = File.read('report0310.json')
 		@pa = params
+		hash=  JSON.parse(value)
 	    @h = params.to_h
 	    
 		@s = params.to_s
 		@pa_inspect = params.inspect
 		tr= Testrun.new
-		tr.TestRun_Time = params[:var1]
+		tr.TestRun_Time = hash[:var1]
 		tr.save
 
 		#params.collect { |k,v| "#{k} ,#{v}" }
