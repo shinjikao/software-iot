@@ -40,6 +40,7 @@ class TestrunsController < ApplicationController
 			ap = App.new
 			ap.AppName = val[:AppName]
 			ap.testrun = tr
+			ap.save
 			#puts "#{val} => #{index}" 
 		}
 
