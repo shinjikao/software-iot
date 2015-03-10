@@ -12,8 +12,8 @@ class TestrunsController < ApplicationController
 		
 		
 		#file = File.read('report0310.json')
-		@hash = params
-	    
+		@pa = params
+	    @h = params.to_h
 		
 		@class = params.class
 		@name = params.class.name
