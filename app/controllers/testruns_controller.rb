@@ -1,5 +1,4 @@
-require 'net/http'
-require 'cgi'
+
 class TestrunsController < ApplicationController
 	
 	def index
@@ -16,12 +15,12 @@ class TestrunsController < ApplicationController
 		#file = File.read('report0310.json')
 		@pa = params
 	    @h = params.to_h
-		@h_inspect = @h.inspect
+		@pa_inspect = params.inspect
 		@class = params.class
 		@name = params.class.name
 
 
-		params.collect { |k,v| "#{k}=#{CGI::escape(v.to_s)}"
+		#params.collect { |k,v| "#{k} ,#{v}" }
 	    #tr = Testrun.new
 		#tr.TestRun_Time = testrun_hash[:TestRun_Time]
 		#tr.Product      = testrun_hash[:Product]
