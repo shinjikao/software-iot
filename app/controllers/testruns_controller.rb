@@ -9,10 +9,7 @@ class TestrunsController < ApplicationController
 		#testrun_hash=params
 		@params_class=params.class
 
-		params.each do |p|
-		 @apps_class = p['TestRun_Apps'].class
 		
-		end
 
 		file = File.read('report.json')
 	    testrun_hash = JSON.parse(file)
