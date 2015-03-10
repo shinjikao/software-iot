@@ -29,7 +29,9 @@ class TestrunsController < ApplicationController
 		tr.AndroidVersion = hash['AndroidVersion']
 		
 
-@Apps = hash['TestRun_Apps']
+	
+		@Apps = hash['TestRun_Apps']
+		@A = @Apps.kind_of?(Array)
 
 		#hash['TestRun_Apps'].each do | app|
 	    	
