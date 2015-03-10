@@ -38,7 +38,7 @@ class TestrunsController < ApplicationController
 		tr.AndroidVersion = params[:AndroidVersion]
 		@f=params[:TestRun_Apps]
 		@h = params[:TestRun_Apps].is_h
-		@class = params[:TestRun_Apps].class
+		
 
 	    tr.save
 		#redirect_to testruns_url
