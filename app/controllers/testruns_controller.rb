@@ -21,18 +21,25 @@ class TestrunsController < ApplicationController
 	    tr.save
 		
 		
-		#@t = tr 
+
     	redirect_to testruns_url
 	end
 
 	def create
 		@testrun_hash=params
+		
+		#file = File.read('report0310.json')
 		tr = Testrun.new
 		tr.TestRun_Time =params[:TestRun_Time]
+		tr.TestRun_Time = params[:TestRun_Time]
+		tr.Product      = params[:Product]
+		tr.SerialNumber = params[:SerialNumber]
+		tr.DeviceVersion = params[:DeviceVersion]
+		tr.AndroidVersion = params[:AndroidVersion]
 	    tr.save
 
       	
-    	#redirect_to testruns_url
+    	redirect_to testruns_url
 	end
 
 
