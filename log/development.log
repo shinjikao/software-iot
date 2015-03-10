@@ -9562,3 +9562,2536 @@ TypeError (no implicit conversion of String into Integer):
   Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
   Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.5ms)
   Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (28.8ms)
+
+
+Started GET "/testruns/new" for ::1 at 2015-03-10 14:37:23 +0800
+Processing by TestrunsController#new as HTML
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.6ms)[0m  INSERT INTO "testruns" ("TestRun_Time", "TestRun_Path", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["TestRun_Time", "2015"], ["TestRun_Path", "D://iot/app/line.apk"], ["Product", "ASUS-A500CG"], ["SerialNumber", "1234567890"], ["DeviceVersion", "5.1.23"], ["AndroidVersion", "5.0"], ["created_at", "2015-03-10 06:37:23.491615"], ["updated_at", "2015-03-10 06:37:23.491615"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  Rendered testruns/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 133ms (Views: 50.2ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 14:37:23 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 14:37:23 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 14:37:23 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 14:37:23 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 14:37:23 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 14:37:23 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 14:37:23 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 14:37:23 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 14:37:23 +0800
+
+
+Started GET "/testruns/new?TestRun_Time=2020&TestRun_Path=d" for ::1 at 2015-03-10 14:42:15 +0800
+Processing by TestrunsController#new as HTML
+  Parameters: {"TestRun_Time"=>"2020", "TestRun_Path"=>"d"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "testruns" ("TestRun_Time", "TestRun_Path", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["TestRun_Time", "2015"], ["TestRun_Path", "D://iot/app/line.apk"], ["Product", "ASUS-A500CG"], ["SerialNumber", "1234567890"], ["DeviceVersion", "5.1.23"], ["AndroidVersion", "5.0"], ["created_at", "2015-03-10 06:42:15.619738"], ["updated_at", "2015-03-10 06:42:15.619738"]]
+  [1m[35m (9.1ms)[0m  commit transaction
+  Rendered testruns/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 121ms (Views: 43.5ms | ActiveRecord: 10.1ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 14:42:15 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 14:42:15 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 14:42:15 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 14:42:15 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 14:42:15 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 14:42:15 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 14:42:15 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 14:42:15 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 14:42:15 +0800
+
+
+Started GET "/testruns/new?TestRun_Time=2020&TestRun_Path=d" for ::1 at 2015-03-10 14:43:15 +0800
+Processing by TestrunsController#new as HTML
+  Parameters: {"TestRun_Time"=>"2020", "TestRun_Path"=>"d"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "testruns" ("TestRun_Time", "TestRun_Path", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["TestRun_Time", "2015"], ["TestRun_Path", "D://iot/app/line.apk"], ["Product", "ASUS-A500CG"], ["SerialNumber", "1234567890"], ["DeviceVersion", "5.1.23"], ["AndroidVersion", "5.0"], ["created_at", "2015-03-10 06:43:15.623553"], ["updated_at", "2015-03-10 06:43:15.623553"]]
+  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+  Rendered testruns/new.html.erb within layouts/application (55.3ms)
+Completed 500 Internal Server Error in 86ms
+
+ActionView::Template::Error (undefined method `+@' for #<ActiveSupport::SafeBuffer:0x007fda9d9cd7e8>):
+    1: <%= debug(@params_class) %>
+    2: 
+    3: <%+ debug(@pp) %>
+  app/views/testruns/new.html.erb:3:in `_app_views_testruns_new_html_erb__4011158141442023665_70288461946720'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (25.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (20.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (42.1ms)
+
+
+Started GET "/testruns/new?TestRun_Time=2020&TestRun_Path=d" for ::1 at 2015-03-10 14:43:28 +0800
+Processing by TestrunsController#new as HTML
+  Parameters: {"TestRun_Time"=>"2020", "TestRun_Path"=>"d"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "testruns" ("TestRun_Time", "TestRun_Path", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["TestRun_Time", "2015"], ["TestRun_Path", "D://iot/app/line.apk"], ["Product", "ASUS-A500CG"], ["SerialNumber", "1234567890"], ["DeviceVersion", "5.1.23"], ["AndroidVersion", "5.0"], ["created_at", "2015-03-10 06:43:28.336321"], ["updated_at", "2015-03-10 06:43:28.336321"]]
+  [1m[35m (8.9ms)[0m  commit transaction
+  Rendered testruns/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 55ms (Views: 42.1ms | ActiveRecord: 9.2ms)
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 14:43:28 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 14:43:28 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 14:43:28 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 14:43:28 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 14:43:28 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 14:43:28 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 14:43:28 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 14:43:28 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 14:43:28 +0800
+
+
+Started GET "/testruns/new?TestRun_Time=2020&TestRun_Path=d" for ::1 at 2015-03-10 14:44:14 +0800
+Processing by TestrunsController#new as HTML
+  Parameters: {"TestRun_Time"=>"2020", "TestRun_Path"=>"d"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "testruns" ("TestRun_Time", "TestRun_Path", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["TestRun_Time", "2015"], ["TestRun_Path", "D://iot/app/line.apk"], ["Product", "ASUS-A500CG"], ["SerialNumber", "1234567890"], ["DeviceVersion", "5.1.23"], ["AndroidVersion", "5.0"], ["created_at", "2015-03-10 06:44:14.499123"], ["updated_at", "2015-03-10 06:44:14.499123"]]
+  [1m[36m (9.1ms)[0m  [1mcommit transaction[0m
+  Rendered testruns/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 68ms (Views: 44.6ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 14:44:14 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 14:44:14 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 14:44:14 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 14:44:14 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 14:44:14 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 14:44:14 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 14:44:14 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 14:44:14 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 14:44:14 +0800
+
+
+Started GET "/testruns/new?TestRun_Time=2020&TestRun_Path=d" for ::1 at 2015-03-10 14:45:21 +0800
+Processing by TestrunsController#new as HTML
+  Parameters: {"TestRun_Time"=>"2020", "TestRun_Path"=>"d"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "testruns" ("TestRun_Time", "TestRun_Path", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)[0m  [["TestRun_Time", "2015"], ["TestRun_Path", "D://iot/app/line.apk"], ["Product", "ASUS-A500CG"], ["SerialNumber", "1234567890"], ["DeviceVersion", "5.1.23"], ["AndroidVersion", "5.0"], ["created_at", "2015-03-10 06:45:21.874884"], ["updated_at", "2015-03-10 06:45:21.874884"]]
+  [1m[35m (9.1ms)[0m  commit transaction
+  Rendered testruns/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 66ms (Views: 43.9ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 14:45:21 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 14:45:21 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 14:45:21 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 14:45:21 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 14:45:21 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 14:45:21 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 14:45:21 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 14:45:21 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 14:45:21 +0800
+
+
+Started GET "/testruns/new" for ::1 at 2015-03-10 14:48:00 +0800
+Processing by TestrunsController#new as HTML
+Completed 500 Internal Server Error in 10ms
+
+TypeError (no implicit conversion of String into Integer):
+  app/controllers/testruns_controller.rb:21:in `[]'
+  app/controllers/testruns_controller.rb:21:in `block in new'
+  app/controllers/testruns_controller.rb:17:in `each'
+  app/controllers/testruns_controller.rb:17:in `new'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (24.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (12.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (56.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (84.9ms)
+
+
+Started GET "/testruns/new" for ::1 at 2015-03-10 14:48:44 +0800
+Processing by TestrunsController#new as HTML
+Completed 500 Internal Server Error in 9ms
+
+TypeError (no implicit conversion of String into Integer):
+  app/controllers/testruns_controller.rb:21:in `[]'
+  app/controllers/testruns_controller.rb:21:in `block in new'
+  app/controllers/testruns_controller.rb:17:in `each'
+  app/controllers/testruns_controller.rb:17:in `new'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (58.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (72.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (13.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (28.5ms)
+
+
+Started GET "/testruns/new" for ::1 at 2015-03-10 14:50:15 +0800
+Processing by TestrunsController#new as HTML
+Completed 500 Internal Server Error in 9ms
+
+TypeError (no implicit conversion of String into Integer):
+  app/controllers/testruns_controller.rb:21:in `[]'
+  app/controllers/testruns_controller.rb:21:in `block in new'
+  app/controllers/testruns_controller.rb:17:in `each'
+  app/controllers/testruns_controller.rb:17:in `new'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (12.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (27.3ms)
+
+
+Started GET "/testruns/new" for ::1 at 2015-03-10 14:50:50 +0800
+Processing by TestrunsController#new as HTML
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "testruns" ("TestRun_Time", "created_at", "updated_at") VALUES (?, ?, ?)  [["TestRun_Time", "TestRun_Time"], ["created_at", "2015-03-10 06:50:50.549368"], ["updated_at", "2015-03-10 06:50:50.549368"]]
+  [1m[36m (8.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "testruns" ("TestRun_Time", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["TestRun_Time", "TestRun_Path"], ["created_at", "2015-03-10 06:50:50.559986"], ["updated_at", "2015-03-10 06:50:50.559986"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "testruns" ("TestRun_Time", "created_at", "updated_at") VALUES (?, ?, ?)  [["TestRun_Time", "Product"], ["created_at", "2015-03-10 06:50:50.563204"], ["updated_at", "2015-03-10 06:50:50.563204"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "testruns" ("TestRun_Time", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["TestRun_Time", "SerialNumber"], ["created_at", "2015-03-10 06:50:50.566303"], ["updated_at", "2015-03-10 06:50:50.566303"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "testruns" ("TestRun_Time", "created_at", "updated_at") VALUES (?, ?, ?)  [["TestRun_Time", "DeviceVersion"], ["created_at", "2015-03-10 06:50:50.568930"], ["updated_at", "2015-03-10 06:50:50.568930"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "testruns" ("TestRun_Time", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["TestRun_Time", "AndroidVersion"], ["created_at", "2015-03-10 06:50:50.571535"], ["updated_at", "2015-03-10 06:50:50.571535"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "testruns" ("TestRun_Time", "created_at", "updated_at") VALUES (?, ?, ?)  [["TestRun_Time", "TestRun_Apps"], ["created_at", "2015-03-10 06:50:50.574041"], ["updated_at", "2015-03-10 06:50:50.574041"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  Rendered testruns/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 132ms (Views: 95.7ms | ActiveRecord: 14.7ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 14:50:50 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 14:50:50 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 14:50:50 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 14:50:50 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 14:50:50 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 14:50:50 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 14:50:50 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 14:50:50 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 14:50:51 +0800
+
+
+Started GET "/testruns/new?TestRun_Time=2020&TestRun_Path=d" for ::1 at 2015-03-10 14:52:56 +0800
+Processing by TestrunsController#new as HTML
+  Parameters: {"TestRun_Time"=>"2020", "TestRun_Path"=>"d"}
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "testruns" ("TestRun_Time", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["TestRun_Time", "TestRun_Time"], ["created_at", "2015-03-10 06:52:56.170709"], ["updated_at", "2015-03-10 06:52:56.170709"]]
+  [1m[35m (8.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "testruns" ("TestRun_Time", "created_at", "updated_at") VALUES (?, ?, ?)  [["TestRun_Time", "TestRun_Path"], ["created_at", "2015-03-10 06:52:56.182198"], ["updated_at", "2015-03-10 06:52:56.182198"]]
+  [1m[36m (0.7ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "testruns" ("TestRun_Time", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["TestRun_Time", "Product"], ["created_at", "2015-03-10 06:52:56.184898"], ["updated_at", "2015-03-10 06:52:56.184898"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "testruns" ("TestRun_Time", "created_at", "updated_at") VALUES (?, ?, ?)  [["TestRun_Time", "SerialNumber"], ["created_at", "2015-03-10 06:52:56.187459"], ["updated_at", "2015-03-10 06:52:56.187459"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "testruns" ("TestRun_Time", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["TestRun_Time", "DeviceVersion"], ["created_at", "2015-03-10 06:52:56.190236"], ["updated_at", "2015-03-10 06:52:56.190236"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "testruns" ("TestRun_Time", "created_at", "updated_at") VALUES (?, ?, ?)  [["TestRun_Time", "AndroidVersion"], ["created_at", "2015-03-10 06:52:56.193290"], ["updated_at", "2015-03-10 06:52:56.193290"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "testruns" ("TestRun_Time", "created_at", "updated_at") VALUES (?, ?, ?)[0m  [["TestRun_Time", "TestRun_Apps"], ["created_at", "2015-03-10 06:52:56.196522"], ["updated_at", "2015-03-10 06:52:56.196522"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  Rendered testruns/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 139ms (Views: 98.2ms | ActiveRecord: 16.0ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 14:52:56 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 14:52:56 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 14:52:56 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 14:52:56 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 14:52:56 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 14:52:56 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 14:52:56 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 14:52:56 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 14:52:56 +0800
+
+
+Started GET "/testruns/new?TestRun_Time=2020&TestRun_Path=d" for ::1 at 2015-03-10 14:55:39 +0800
+Processing by TestrunsController#new as HTML
+  Parameters: {"TestRun_Time"=>"2020", "TestRun_Path"=>"d"}
+Completed 500 Internal Server Error in 37ms
+
+NameError (undefined local variable or method `app' for #<TestrunsController:0x007fda9d8de0a8>):
+  app/controllers/testruns_controller.rb:28:in `block in new'
+  app/controllers/testruns_controller.rb:26:in `each'
+  app/controllers/testruns_controller.rb:26:in `new'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (20.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (12.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (27.0ms)
+
+
+Started GET "/testruns/new?TestRun_Time=2020&TestRun_Path=d" for ::1 at 2015-03-10 14:55:52 +0800
+Processing by TestrunsController#new as HTML
+  Parameters: {"TestRun_Time"=>"2020", "TestRun_Path"=>"d"}
+Completed 500 Internal Server Error in 21ms
+
+TypeError (no implicit conversion of String into Integer):
+  app/controllers/testruns_controller.rb:28:in `[]'
+  app/controllers/testruns_controller.rb:28:in `block in new'
+  app/controllers/testruns_controller.rb:26:in `each'
+  app/controllers/testruns_controller.rb:26:in `new'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (12.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (28.4ms)
+
+
+Started GET "/testruns/new?TestRun_Time=2020&TestRun_Path=d" for ::1 at 2015-03-10 14:59:23 +0800
+
+SyntaxError (/Users/jackalkao/projects/software-iot/app/controllers/testruns_controller.rb:28: syntax error, unexpected '=', expecting '}'
+			=begin
+			 ^
+/Users/jackalkao/projects/software-iot/app/controllers/testruns_controller.rb:44: syntax error, unexpected '=', expecting keyword_end
+			=end
+			 ^
+/Users/jackalkao/projects/software-iot/app/controllers/testruns_controller.rb:120: syntax error, unexpected keyword_end, expecting '}'):
+  app/controllers/testruns_controller.rb:28: syntax error, unexpected '=', expecting '}'
+  app/controllers/testruns_controller.rb:44: syntax error, unexpected '=', expecting keyword_end
+  app/controllers/testruns_controller.rb:120: syntax error, unexpected keyword_end, expecting '}'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (17.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (89.2ms)
+
+
+Started GET "/testruns/new?TestRun_Time=2020&TestRun_Path=d" for ::1 at 2015-03-10 15:00:50 +0800
+
+SyntaxError (/Users/jackalkao/projects/software-iot/app/controllers/testruns_controller.rb:28: syntax error, unexpected '=', expecting keyword_end
+			=begin
+			 ^
+/Users/jackalkao/projects/software-iot/app/controllers/testruns_controller.rb:44: syntax error, unexpected '=', expecting keyword_end
+			=end
+			 ^
+/Users/jackalkao/projects/software-iot/app/controllers/testruns_controller.rb:120: syntax error, unexpected end-of-input, expecting keyword_end):
+  app/controllers/testruns_controller.rb:28: syntax error, unexpected '=', expecting keyword_end
+  app/controllers/testruns_controller.rb:44: syntax error, unexpected '=', expecting keyword_end
+  app/controllers/testruns_controller.rb:120: syntax error, unexpected end-of-input, expecting keyword_end
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (3.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (17.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (12.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (27.3ms)
+
+
+Started GET "/testruns/new?TestRun_Time=2020&TestRun_Path=d" for ::1 at 2015-03-10 15:01:30 +0800
+Processing by TestrunsController#new as HTML
+  Parameters: {"TestRun_Time"=>"2020", "TestRun_Path"=>"d"}
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.5ms)[0m  INSERT INTO "testruns" ("TestRun_Time", "TestRun_Path", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["TestRun_Time", "20150310113858_E8OKBC298746"], ["TestRun_Path", "D:\\_SVN_PC\\ATSoftwareIOTValidatorNewMultipleInterface\\SwitchApplication\\bin\\Debug\\Result\\20150310113858_E8OKBC298746\\"], ["Product", ": K019_4"], ["SerialNumber", "E8OKBC298746"], ["DeviceVersion", ": 12.14.3.1"], ["AndroidVersion", ": 5.0.1"], ["created_at", "2015-03-10 07:01:30.180708"], ["updated_at", "2015-03-10 07:01:30.180708"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 26ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:01:30 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.3ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (5.1ms)
+Completed 200 OK in 47ms (Views: 45.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:01:30 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:01:30 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:01:30 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:01:30 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:01:30 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:01:30 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:01:30 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:01:30 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:01:30 +0800
+
+
+Started GET "/testruns/68/apps" for ::1 at 2015-03-10 15:01:45 +0800
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"68"}
+  [1m[36mTestrun Load (0.3ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 68]]
+  [1m[35mApp Load (0.2ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."testrun_id" = ?  [["testrun_id", 68]]
+  Rendered testrun_apps/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 136ms (Views: 42.8ms | ActiveRecord: 0.7ms)
+
+
+Started DELETE "/testruns/76" for ::1 at 2015-03-10 15:01:56 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"W+UUKZxtQ2+5Sny9xoAEDOx4r/a3C7NtYk9nOXYrXbNCJRKvvnaPjILBDs4rgGzppf25TCJb02pVtw+X3HZaeA==", "id"=>"76"}
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 76]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "testruns" WHERE "testruns"."id" = ?[0m  [["id", 76]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 4ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:01:56 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 108ms (Views: 107.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:01:56 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:01:56 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:01:56 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:01:56 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:01:56 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:01:56 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:01:56 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:01:56 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:01:56 +0800
+
+
+Started DELETE "/testruns/75" for ::1 at 2015-03-10 15:01:58 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"QJblOsnI434GeJb+40VyWWsWXaOJ3Q8gKxrhMza2/N1ZVuO869MvnT3z5I0ORRq8IpNLGRyNbycc4omdnOv7Fg==", "id"=>"75"}
+  [1m[35mTestrun Load (0.1ms)[0m  SELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1  [["id", 75]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "testruns" WHERE "testruns"."id" = ?  [["id", 75]]
+  [1m[36m (8.3ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 12ms (ActiveRecord: 8.8ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:01:58 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.2ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 102ms (Views: 101.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:01:58 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:01:58 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:01:58 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:01:58 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:01:58 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:01:58 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:01:58 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:01:58 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:01:58 +0800
+
+
+Started DELETE "/testruns/74" for ::1 at 2015-03-10 15:01:58 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"9GASTikl9Pyt+Baa689dYZmg6Ey+rnddzJv9fSv269ntoBTICz44H5ZzZOkGzzWE0CX+9iv+F1r7Y5XTgavsEg==", "id"=>"74"}
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 74]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "testruns" WHERE "testruns"."id" = ?[0m  [["id", 74]]
+  [1m[35m (8.7ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 12ms (ActiveRecord: 9.1ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:01:58 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 41ms (Views: 40.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:01:58 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:01:58 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:01:58 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:01:58 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:01:58 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:01:58 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:01:58 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:01:58 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:01:58 +0800
+
+
+Started DELETE "/testruns/73" for ::1 at 2015-03-10 15:01:59 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"gAJDXhtzHztllaHgcGmL3l2i7kted4EvPzuEuOOjF2WZwkXYOWjT2F4e05OdaeM7FCf48csn4SgIw+wWSf4Qrg==", "id"=>"73"}
+  [1m[35mTestrun Load (0.1ms)[0m  SELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1  [["id", 73]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.8ms)[0m  DELETE FROM "testruns" WHERE "testruns"."id" = ?  [["id", 73]]
+  [1m[36m (9.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 13ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:01:59 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.2ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 113ms (Views: 112.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:01:59 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:01:59 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:01:59 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:01:59 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:01:59 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:01:59 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:01:59 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:01:59 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:01:59 +0800
+
+
+Started DELETE "/testruns/72" for ::1 at 2015-03-10 15:01:59 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Go8zTiZ/HWyrQF/qWIJTCJ+lvFfopSlAlfuK7YyNXckDTzXIBGTRj5DLLZm1gjvt1iCq7X31SUeiA+JDJtBaAg==", "id"=>"72"}
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 72]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "testruns" WHERE "testruns"."id" = ?[0m  [["id", 72]]
+  [1m[35m (8.4ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 11ms (ActiveRecord: 8.7ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:01:59 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:01:59 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:01:59 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:01:59 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:01:59 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:01:59 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:00 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:00 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:00 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:00 +0800
+
+
+Started DELETE "/testruns/70" for ::1 at 2015-03-10 15:02:00 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"EtgyrsLh7d/NIZNxbV84fM3KK8SNWOy95HhlUBqliuQLGDQo4PohPPaq4QKAX1CZhE89fhgIjLrTgA3+sPiNLw==", "id"=>"70"}
+  [1m[35mTestrun Load (0.2ms)[0m  SELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1  [["id", 70]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "testruns" WHERE "testruns"."id" = ?  [["id", 70]]
+  [1m[36m (8.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 12ms (ActiveRecord: 9.2ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:02:00 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.3ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 41ms (Views: 40.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:00 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:00 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:00 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:02:00 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:02:00 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:02:00 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:00 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:00 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:00 +0800
+
+
+Started DELETE "/testruns/69" for ::1 at 2015-03-10 15:02:01 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"PPJ0javrh2WkMSybZKfEgSX5e0AhE8wPmtwEr/Mxl1glMnILifBLhp+6XuiJp6xkbHxt+rRDrAitJGwBWWyQkw==", "id"=>"69"}
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 69]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "testruns" WHERE "testruns"."id" = ?[0m  [["id", 69]]
+  [1m[35m (9.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 12ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:02:01 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 103ms (Views: 102.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:01 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:02:01 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:01 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:01 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:02:01 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:02:01 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:01 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:01 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:01 +0800
+
+
+Started DELETE "/testruns/68" for ::1 at 2015-03-10 15:02:02 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"NgOI4lrjcZfDuw1oePB4FY1CznnRng7pWHRoGioFp5wvw45kePi9dPgwfxuV8BDwxMfYw0TObu5vjAC0gFigVw==", "id"=>"68"}
+  [1m[35mTestrun Load (0.1ms)[0m  SELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1  [["id", 68]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "testruns" WHERE "testruns"."id" = ?  [["id", 68]]
+  [1m[36m (8.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 11ms (ActiveRecord: 8.6ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:02:02 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.2ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 42ms (Views: 40.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:02 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:02:02 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:02:02 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:02 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:02 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:02:02 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:02 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:02 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:02 +0800
+
+
+Started DELETE "/testruns/67" for ::1 at 2015-03-10 15:02:02 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wNjRqq2bDalruUN/LKyyCEd/gGCFoPch/njPUB3eWVPZGNcsj4DBSlAyMQzBrNrtDvqW2hDwlybJgKf+t4NemA==", "id"=>"67"}
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 67]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.8ms)[0m  [1mDELETE FROM "testruns" WHERE "testruns"."id" = ?[0m  [["id", 67]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 4ms (ActiveRecord: 2.0ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:02:02 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 104ms (Views: 103.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:02:02 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:02:02 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:02 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:02 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:02 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:02:02 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:02 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:02 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:02 +0800
+
+
+Started DELETE "/testruns/66" for ::1 at 2015-03-10 15:02:03 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"BO19KahjZ4nSNFX2fdPQ1gtMdccChocOkYV4MRzD38AdLXuviniraum/J4WQ07gzQsljfZfW5wmmfRCftp7YCw==", "id"=>"66"}
+  [1m[35mTestrun Load (0.1ms)[0m  SELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1  [["id", 66]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "testruns" WHERE "testruns"."id" = ?  [["id", 66]]
+  [1m[36m (8.2ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 11ms (ActiveRecord: 8.7ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:02:03 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.2ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 108ms (Views: 107.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:03 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:02:03 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:02:03 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:03 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:03 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:02:03 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:03 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:03 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:03 +0800
+
+
+Started DELETE "/testruns/65" for ::1 at 2015-03-10 15:02:03 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"x5hEZkc9oBie98KsLFzaRmdxazJ3pn/hKKtG6lzReXHeWELgZSZs+6V8sN/BXLKjLvR9iOL2H+YfUy5E9ox+ug==", "id"=>"65"}
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 65]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.5ms)[0m  [1mDELETE FROM "testruns" WHERE "testruns"."id" = ?[0m  [["id", 65]]
+  [1m[35m (8.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 12ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:02:03 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 42ms (Views: 41.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:03 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:03 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:02:03 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:03 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:03 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:02:03 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:02:03 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:03 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:03 +0800
+
+
+Started DELETE "/testruns/63" for ::1 at 2015-03-10 15:02:04 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"n7M6+c/20D+Trv7sux8e7yqex2bD+GHCUki7RUsqubSGczx/7e0c3KgljJ9WH3YKYxvR3FaoAcVlsNPr4Xe+fw==", "id"=>"63"}
+  [1m[35mTestrun Load (0.1ms)[0m  SELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1  [["id", 63]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "testruns" WHERE "testruns"."id" = ?  [["id", 63]]
+  [1m[36m (8.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 11ms (ActiveRecord: 8.9ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:02:04 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.2ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 106ms (Views: 105.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:04 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:02:04 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:04 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:04 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:04 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:02:04 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:02:04 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:04 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:04 +0800
+
+
+Started DELETE "/testruns/62" for ::1 at 2015-03-10 15:02:05 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"9eNg5Zy3T09yvCInTXeWSEZ3rAan9tcN/ukIKFJZm1LsI2ZjvqyDrEk3UFSgd/6tD/K6vDKmtwrJEWCG+AScmQ==", "id"=>"62"}
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 62]]
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "testruns" WHERE "testruns"."id" = ?[0m  [["id", 62]]
+  [1m[35m (1.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 3ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:02:05 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 101ms (Views: 100.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:05 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:05 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:02:05 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:02:05 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:05 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:02:05 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:05 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:05 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:05 +0800
+
+
+Started DELETE "/testruns/71" for ::1 at 2015-03-10 15:02:06 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"WJRoFtsH3B1mGc8DJVjTrWSwkY/HL7gLAnTqPrAgW/NBVG6Q+RwQ/l2SvXDIWLtILTWHNVJ/2Aw1jIKQGn1cOA==", "id"=>"71"}
+  [1m[35mTestrun Load (0.1ms)[0m  SELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1  [["id", 71]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "testruns" WHERE "testruns"."id" = ?  [["id", 71]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 4ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:02:06 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.2ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 44ms (Views: 43.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:06 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:06 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:02:06 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:06 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:06 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:02:06 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:06 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:02:06 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:06 +0800
+
+
+Started DELETE "/testruns/64" for ::1 at 2015-03-10 15:02:07 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"8OTP7kKrKq0xS4FoYjDrcy3cz07H79d9RkoYZgYphAPpJMloYLDmTgrA8xuPMIOWZFnZ9FK/t3pxsnDIrHSDyA==", "id"=>"64"}
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 64]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "testruns" WHERE "testruns"."id" = ?[0m  [["id", 64]]
+  [1m[35m (0.9ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 4ms (ActiveRecord: 1.4ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:02:07 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 109ms (Views: 108.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:07 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:02:07 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:07 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:02:07 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:07 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:07 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:02:07 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:07 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:07 +0800
+
+
+Started DELETE "/testruns/61" for ::1 at 2015-03-10 15:02:08 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Mpjiogo8KrwLfDu6vGddN/7emTw5R3VwFwvoZT+ZzjsrWOQkKCfmXzD3SclRZzXSt1uPhqwXFXcg84DLlcTJ8A==", "id"=>"61"}
+  [1m[35mTestrun Load (0.1ms)[0m  SELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1  [["id", 61]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "testruns" WHERE "testruns"."id" = ?  [["id", 61]]
+  [1m[36m (8.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 11ms (ActiveRecord: 8.5ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:02:08 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.2ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:08 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:08 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:02:08 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:08 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:02:08 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:02:08 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:08 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:08 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:08 +0800
+
+
+Started DELETE "/testruns/60" for ::1 at 2015-03-10 15:02:08 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"K+uvkxqSy2QruOlNGS/E3GD8ecCZTFzccLTngIDUjRIyK6kVOIkHhxAzmz70L6w5KXlvegwcPNtHTI8uKomK2Q==", "id"=>"60"}
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 60]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "testruns" WHERE "testruns"."id" = ?[0m  [["id", 60]]
+  [1m[35m (9.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 12ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:02:09 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 51ms (Views: 50.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:02:09 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:09 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:09 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:02:09 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:09 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:09 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:02:09 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:09 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:09 +0800
+
+
+Started DELETE "/testruns/59" for ::1 at 2015-03-10 15:02:09 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"I3O9xzEm1AzdtifqyYHZ0DgXEbLRHqo7c1s3hAsjBGk6s7tBEz0Y7+Y9VZkkgbE1cZIHCEROyjxEo18qoX4Dog==", "id"=>"59"}
+  [1m[35mTestrun Load (0.1ms)[0m  SELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1  [["id", 59]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  DELETE FROM "testruns" WHERE "testruns"."id" = ?  [["id", 59]]
+  [1m[36m (8.4ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 12ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:02:09 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.3ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 104ms (Views: 102.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:09 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:09 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:02:09 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:02:09 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:02:09 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:09 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:09 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:09 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:09 +0800
+
+
+Started DELETE "/testruns/58" for ::1 at 2015-03-10 15:02:10 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"AlfEe5ADi5eGzsmKs202A1hyF0hMntSVrKUSW0A1wMMbl8L9shhHdL1Fu/lebV7mEfcB8tnOtJKbXXr16mjHCA==", "id"=>"58"}
+  [1m[36mTestrun Load (0.3ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 58]]
+  [1m[35m (0.2ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mDELETE FROM "testruns" WHERE "testruns"."id" = ?[0m  [["id", 58]]
+  [1m[35m (8.3ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 12ms (ActiveRecord: 9.0ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:02:10 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 38ms (Views: 37.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:10 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:02:10 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:02:10 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:02:10 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:10 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:10 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:10 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:10 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:10 +0800
+
+
+Started DELETE "/testruns/57" for ::1 at 2015-03-10 15:02:10 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"dCHfMMjkIUDLfBHIlc/bOf2EbzfBkUao+X6rRIQrWxVt4dm26v/to/D3Y7t4z7PctAF5jVTBJq/OhsPqLnZc3g==", "id"=>"57"}
+  [1m[35mTestrun Load (0.2ms)[0m  SELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1  [["id", 57]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  DELETE FROM "testruns" WHERE "testruns"."id" = ?  [["id", 57]]
+  [1m[36m (9.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 13ms (ActiveRecord: 9.7ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:02:10 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.1ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 103ms (Views: 102.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:11 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:11 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:02:11 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:02:11 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:11 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:11 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:02:11 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:11 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:11 +0800
+
+
+Started DELETE "/testruns/56" for ::1 at 2015-03-10 15:02:11 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"YxkUtNfiHWgpSSjVqe8ui9JSU3lfyv/L/s1mL9dunrR62RIy9fnRixLCWqZE70Zum9dFw8qan8zJNQ6BfTOZfw==", "id"=>"56"}
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 56]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "testruns" WHERE "testruns"."id" = ?[0m  [["id", 56]]
+  [1m[35m (8.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 11ms (ActiveRecord: 8.6ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:02:11 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 100ms (Views: 99.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:11 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:02:11 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:11 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:02:11 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:11 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:02:11 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:11 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:11 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:11 +0800
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:02:27 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.1ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 44ms (Views: 43.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:27 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:02:27 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:27 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:27 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:02:27 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:02:27 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:27 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:27 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:27 +0800
+
+
+Started GET "/testruns/new" for ::1 at 2015-03-10 15:02:30 +0800
+Processing by TestrunsController#new as HTML
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.4ms)[0m  INSERT INTO "testruns" ("TestRun_Time", "TestRun_Path", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?)  [["TestRun_Time", "20150310113858_E8OKBC298746"], ["TestRun_Path", "D:\\_SVN_PC\\ATSoftwareIOTValidatorNewMultipleInterface\\SwitchApplication\\bin\\Debug\\Result\\20150310113858_E8OKBC298746\\"], ["Product", ": K019_4"], ["SerialNumber", "E8OKBC298746"], ["DeviceVersion", ": 12.14.3.1"], ["AndroidVersion", ": 5.0.1"], ["created_at", "2015-03-10 07:02:30.241557"], ["updated_at", "2015-03-10 07:02:30.241557"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 7ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:02:30 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.1ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 100ms (Views: 99.1ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:30 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:30 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:02:30 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:02:30 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:30 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:02:30 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:30 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:30 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:30 +0800
+
+
+Started GET "/testruns/77/apps" for ::1 at 2015-03-10 15:02:32 +0800
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"77"}
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 77]]
+  [1m[35mApp Load (0.2ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."testrun_id" = ?  [["testrun_id", 77]]
+  Rendered testrun_apps/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 43ms (Views: 40.9ms | ActiveRecord: 0.3ms)
+
+
+Started DELETE "/testruns/77" for ::1 at 2015-03-10 15:02:56 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"iUmNGA1IUemxnX0qES54cO7r/8QZ+KlUwBhGuNBYC32QiYueL1OdCooWD1n8LhCVp27pfoyoyVP34C4WegUMtg==", "id"=>"77"}
+  [1m[36mTestrun Load (0.3ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 77]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mDELETE FROM "testruns" WHERE "testruns"."id" = ?[0m  [["id", 77]]
+  [1m[35m (9.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 28ms (ActiveRecord: 10.3ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:02:56 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 48ms (Views: 47.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:56 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:56 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:02:56 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:56 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:02:56 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:56 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:02:56 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:56 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:56 +0800
+
+
+Started GET "/testruns/new" for ::1 at 2015-03-10 15:02:58 +0800
+Processing by TestrunsController#new as HTML
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "testruns" ("TestRun_Time", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["TestRun_Time", "20150310113858_E8OKBC298746"], ["Product", ": K019_4"], ["SerialNumber", "E8OKBC298746"], ["DeviceVersion", ": 12.14.3.1"], ["AndroidVersion", ": 5.0.1"], ["created_at", "2015-03-10 07:02:58.912446"], ["updated_at", "2015-03-10 07:02:58.912446"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 7ms (ActiveRecord: 1.2ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:02:58 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 100ms (Views: 98.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:02:59 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:02:59 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:02:59 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:59 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:02:59 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:02:59 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:59 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:02:59 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:02:59 +0800
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:03:32 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.3ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (6.8ms)
+Completed 200 OK in 113ms (Views: 107.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:03:32 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:03:32 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:03:32 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:03:32 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:03:32 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:03:32 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:03:32 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:03:32 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:03:32 +0800
+
+
+Started DELETE "/testruns/78" for ::1 at 2015-03-10 15:03:37 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"LSMOHBvaFF2m6sNNyHk45jjScjz6bk3KdBPk1a/++4Y04wiaOcHYvp1hsT4leVADcVdkhm8+Lc1D64x7BaP8TQ==", "id"=>"78"}
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 78]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "testruns" WHERE "testruns"."id" = ?[0m  [["id", 78]]
+  [1m[35m (8.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 13ms (ActiveRecord: 9.3ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:03:37 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 39ms (Views: 38.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:03:37 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:03:37 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:03:37 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:03:37 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:03:37 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:03:37 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:03:37 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:03:37 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:03:37 +0800
+
+
+Started GET "/testruns/new" for ::1 at 2015-03-10 15:03:41 +0800
+Processing by TestrunsController#new as HTML
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "testruns" ("TestRun_Time", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["TestRun_Time", "20150310113858_E8OKBC298746"], ["Product", ": K019_4"], ["SerialNumber", "E8OKBC298746"], ["DeviceVersion", ": 12.14.3.1"], ["AndroidVersion", ": 5.0.1"], ["created_at", "2015-03-10 07:03:41.530210"], ["updated_at", "2015-03-10 07:03:41.530210"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 7ms (ActiveRecord: 1.3ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:03:41 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 40ms (Views: 38.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:03:41 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:03:41 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:03:41 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:03:41 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:03:41 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:03:41 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:03:41 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:03:41 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:03:41 +0800
+
+
+Started GET "/testruns/79/apps" for ::1 at 2015-03-10 15:03:43 +0800
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"79"}
+  [1m[35mTestrun Load (0.1ms)[0m  SELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1  [["id", 79]]
+  [1m[36mApp Load (0.2ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."testrun_id" = ?[0m  [["testrun_id", 79]]
+  Rendered testrun_apps/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 110ms (Views: 103.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/testruns/new" for ::1 at 2015-03-10 15:06:32 +0800
+Processing by TestrunsController#new as HTML
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "testruns" ("TestRun_Time", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["TestRun_Time", "20150310113858_E8OKBC298746"], ["Product", ": K019_4"], ["SerialNumber", "E8OKBC298746"], ["DeviceVersion", ": 12.14.3.1"], ["AndroidVersion", ": 5.0.1"], ["created_at", "2015-03-10 07:06:32.878540"], ["updated_at", "2015-03-10 07:06:32.878540"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  Rendered testruns/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 120ms (Views: 106.2ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:06:33 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:06:33 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:06:33 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:06:33 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:06:33 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:06:33 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:06:33 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:06:33 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:06:33 +0800
+
+
+Started GET "/testruns/new" for ::1 at 2015-03-10 15:07:25 +0800
+Processing by TestrunsController#new as HTML
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "testruns" ("TestRun_Time", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["TestRun_Time", "20150310113858_E8OKBC298746"], ["Product", ": K019_4"], ["SerialNumber", "E8OKBC298746"], ["DeviceVersion", ": 12.14.3.1"], ["AndroidVersion", ": 5.0.1"], ["created_at", "2015-03-10 07:07:25.580346"], ["updated_at", "2015-03-10 07:07:25.580346"]]
+  [1m[36m (8.9ms)[0m  [1mcommit transaction[0m
+  Rendered testruns/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 69ms (Views: 44.6ms | ActiveRecord: 10.0ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:07:25 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:07:25 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:07:25 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:07:25 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:07:25 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:07:25 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:07:25 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:07:25 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:07:25 +0800
+
+
+Started GET "/testruns/new" for ::1 at 2015-03-10 15:07:34 +0800
+Processing by TestrunsController#new as HTML
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "testruns" ("TestRun_Time", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["TestRun_Time", "20150310113858_E8OKBC298746"], ["Product", ": K019_4"], ["SerialNumber", "E8OKBC298746"], ["DeviceVersion", ": 12.14.3.1"], ["AndroidVersion", ": 5.0.1"], ["created_at", "2015-03-10 07:07:34.901089"], ["updated_at", "2015-03-10 07:07:34.901089"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  Rendered testruns/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 44ms (Views: 39.8ms | ActiveRecord: 1.2ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:07:34 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:07:34 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:07:34 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:07:34 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:07:34 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:07:34 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:07:34 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:07:34 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:07:34 +0800
+
+
+Started GET "/testruns/new" for ::1 at 2015-03-10 15:07:45 +0800
+Processing by TestrunsController#new as HTML
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "testruns" ("TestRun_Time", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["TestRun_Time", "20150310113858_E8OKBC298746"], ["Product", ": K019_4"], ["SerialNumber", "E8OKBC298746"], ["DeviceVersion", ": 12.14.3.1"], ["AndroidVersion", ": 5.0.1"], ["created_at", "2015-03-10 07:07:45.415228"], ["updated_at", "2015-03-10 07:07:45.415228"]]
+  [1m[36m (9.0ms)[0m  [1mcommit transaction[0m
+  Rendered testruns/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 127ms (Views: 105.4ms | ActiveRecord: 9.8ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:07:45 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:07:45 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:07:45 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:07:45 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:07:45 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:07:45 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:07:45 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:07:45 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:07:45 +0800
+
+
+Started GET "/testruns/new" for ::1 at 2015-03-10 15:26:52 +0800
+Processing by TestrunsController#new as HTML
+Completed 500 Internal Server Error in 72ms
+
+NameError (undefined local variable or method `tesrrun_hash' for #<TestrunsController:0x007fda9eea8a28>):
+  app/controllers/testruns_controller.rb:30:in `new'
+
+
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (56.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (77.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_markup.html (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/style.css within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_inner_console_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/_prompt_box_markup.html within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/console.js within layouts/javascript (13.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/main.js within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/error_page.js within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.1/lib/web_console/templates/index.html (27.8ms)
+
+
+Started GET "/testruns/new" for ::1 at 2015-03-10 15:27:05 +0800
+Processing by TestrunsController#new as HTML
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.4ms)[0m  [1mINSERT INTO "testruns" ("TestRun_Time", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["TestRun_Time", "20150310113858_E8OKBC298746"], ["Product", ": K019_4"], ["SerialNumber", "E8OKBC298746"], ["DeviceVersion", ": 12.14.3.1"], ["AndroidVersion", ": 5.0.1"], ["created_at", "2015-03-10 07:27:05.534967"], ["updated_at", "2015-03-10 07:27:05.534967"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "apps" ("AppNumber", "AppName", "AppVersion", "testrun_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["AppNumber", "1"], ["AppName", "LINE 旅遊大亨"], ["AppVersion", "1.0.1"], ["testrun_id", 84], ["created_at", "2015-03-10 07:27:05.537210"], ["updated_at", "2015-03-10 07:27:05.537210"]]
+  [1m[36m (1.0ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "apps" ("AppNumber", "AppName", "AppVersion", "testrun_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["AppNumber", "2"], ["AppName", "獸人聯盟(魔獸Q傳週週送萬元現金)"], ["AppVersion", "1.4.2"], ["testrun_id", 84], ["created_at", "2015-03-10 07:27:05.541255"], ["updated_at", "2015-03-10 07:27:05.541255"]]
+  [1m[35m (0.8ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  Rendered testruns/new.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 145ms (Views: 99.8ms | ActiveRecord: 3.5ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:27:05 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:27:05 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:27:05 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:27:05 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:27:05 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:27:05 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:27:05 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:27:05 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:27:05 +0800
+
+
+Started GET "/testruns/" for ::1 at 2015-03-10 15:27:09 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 43ms (Views: 41.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:27:09 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:27:09 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:27:09 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:27:09 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:27:09 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:27:09 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:27:09 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:27:09 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:27:09 +0800
+
+
+Started GET "/testruns/84/apps" for ::1 at 2015-03-10 15:27:12 +0800
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"84"}
+  [1m[35mTestrun Load (0.2ms)[0m  SELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1  [["id", 84]]
+  [1m[36mApp Load (0.2ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."testrun_id" = ?[0m  [["testrun_id", 84]]
+  Rendered testrun_apps/index.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 111ms (Views: 106.1ms | ActiveRecord: 0.5ms)
+
+
+Started DELETE "/testruns/84" for ::1 at 2015-03-10 15:27:15 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"8MWQSfxc0uV1pfYpTlb5mLZ1tAvV6q7hywsB/Bdj5+npBZbP3kceBk4uhFqjVpF9//CisUC6zub882lSvT7gIg==", "id"=>"84"}
+  [1m[35mTestrun Load (0.1ms)[0m  SELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1  [["id", 84]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "testruns" WHERE "testruns"."id" = ?  [["id", 84]]
+  [1m[36m (8.7ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 12ms (ActiveRecord: 9.1ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:27:15 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.2ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 102ms (Views: 101.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:27:15 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:27:15 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:27:15 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:27:15 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:27:15 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:27:15 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:27:15 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:27:15 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:27:15 +0800
+
+
+Started DELETE "/testruns/83" for ::1 at 2015-03-10 15:27:16 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wjqzxZc2ziMa4VL9Fyq+bfksuX5oJwfmCVVmxNgi5iPb+rVDtS0CwCFqII76KtaIsKmvxP13Z+E+rQ5qcn/h6A==", "id"=>"83"}
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 83]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "testruns" WHERE "testruns"."id" = ?[0m  [["id", 83]]
+  [1m[35m (9.1ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 13ms (ActiveRecord: 9.6ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:27:16 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 41ms (Views: 39.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:27:16 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:27:16 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:27:16 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:27:16 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:27:16 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:27:16 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:27:16 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:27:16 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:27:16 +0800
+
+
+Started DELETE "/testruns/82" for ::1 at 2015-03-10 15:27:16 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"duJnz/CnwPKWeN2zFGcMowLj6whDoNQsHuWKVqXeCoxvImFJ0rwMEa3zr8D5Z2RGS2b9stbwtCspHeL4D4MNRw==", "id"=>"82"}
+  [1m[35mTestrun Load (0.2ms)[0m  SELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1  [["id", 82]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "testruns" WHERE "testruns"."id" = ?  [["id", 82]]
+  [1m[36m (9.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 12ms (ActiveRecord: 9.5ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:27:16 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.2ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 105ms (Views: 104.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:27:17 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:27:17 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:27:17 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:27:17 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:27:17 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:27:17 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:27:17 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:27:17 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:27:17 +0800
+
+
+Started DELETE "/testruns/81" for ::1 at 2015-03-10 15:27:17 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"wYrPzNtdHmtK9MLY3HgsGIDFjw8o6wdhG6D0fJzXcivYSslK+UbSiHF/sKsxeET9yUCZtb27Z2YsWJzSNop14A==", "id"=>"81"}
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 81]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "testruns" WHERE "testruns"."id" = ?[0m  [["id", 81]]
+  [1m[35m (8.0ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 11ms (ActiveRecord: 8.5ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:27:17 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 39ms (Views: 38.6ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:27:17 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:27:17 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:27:17 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:27:17 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:27:17 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:27:17 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:27:17 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:27:17 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:27:17 +0800
+
+
+Started DELETE "/testruns/80" for ::1 at 2015-03-10 15:27:18 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"OgXXLjtKk6REKF4x6OBvHwBHgdRKhStiiPKw64von5wjxdGoGVFfR3+jLEIF4Af6ScKXbt/VS2W/CthFIbWYVw==", "id"=>"80"}
+  [1m[35mTestrun Load (0.1ms)[0m  SELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1  [["id", 80]]
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  DELETE FROM "testruns" WHERE "testruns"."id" = ?  [["id", 80]]
+  [1m[36m (8.0ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 11ms (ActiveRecord: 8.4ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:27:18 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.1ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 42ms (Views: 41.5ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:27:18 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:27:18 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:27:18 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:27:18 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:27:18 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:27:18 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:27:18 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:27:18 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:27:18 +0800
+
+
+Started DELETE "/testruns/79" for ::1 at 2015-03-10 15:27:19 +0800
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"mQCmfFPYhJ07Cw1EHG3S37uBjgQA2OqZ42eQg3uX4cSAwKD6ccNIfgCAfzfxbbo68gSYvpWIip7Un/gt0crmDw==", "id"=>"79"}
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 79]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mDELETE FROM "testruns" WHERE "testruns"."id" = ?[0m  [["id", 79]]
+  [1m[35m (8.8ms)[0m  commit transaction
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 12ms (ActiveRecord: 9.3ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:27:19 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 103ms (Views: 102.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:27:19 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:27:19 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:27:19 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:27:19 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:27:19 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:27:19 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:27:19 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:27:19 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:27:19 +0800
+
+
+Started GET "/testruns/new" for ::1 at 2015-03-10 15:27:21 +0800
+Processing by TestrunsController#new as HTML
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.3ms)[0m  [1mINSERT INTO "testruns" ("TestRun_Time", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)[0m  [["TestRun_Time", "20150310113858_E8OKBC298746"], ["Product", ": K019_4"], ["SerialNumber", "E8OKBC298746"], ["DeviceVersion", ": 12.14.3.1"], ["AndroidVersion", ": 5.0.1"], ["created_at", "2015-03-10 07:27:21.246353"], ["updated_at", "2015-03-10 07:27:21.246353"]]
+  [1m[35mSQL (0.1ms)[0m  INSERT INTO "apps" ("AppNumber", "AppName", "AppVersion", "testrun_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)  [["AppNumber", "1"], ["AppName", "LINE 旅遊大亨"], ["AppVersion", "1.0.1"], ["testrun_id", 85], ["created_at", "2015-03-10 07:27:21.248450"], ["updated_at", "2015-03-10 07:27:21.248450"]]
+  [1m[36m (0.9ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "apps" ("AppNumber", "AppName", "AppVersion", "testrun_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["AppNumber", "2"], ["AppName", "獸人聯盟(魔獸Q傳週週送萬元現金)"], ["AppVersion", "1.4.2"], ["testrun_id", 85], ["created_at", "2015-03-10 07:27:21.252114"], ["updated_at", "2015-03-10 07:27:21.252114"]]
+  [1m[35m (0.7ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35m (0.1ms)[0m  commit transaction
+  Rendered testruns/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 57ms (Views: 44.4ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:27:21 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:27:21 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:27:21 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:27:21 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:27:21 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:27:21 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:27:21 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:27:21 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:27:21 +0800
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:27:24 +0800
+Processing by TestrunsController#index as HTML
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT "testruns".* FROM "testruns"[0m
+  Rendered testruns/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 104ms (Views: 102.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:27:24 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:27:24 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:27:24 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:27:24 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:27:24 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:27:24 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:27:24 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:27:24 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:27:24 +0800
+
+
+Started GET "/testruns/85/apps" for ::1 at 2015-03-10 15:27:26 +0800
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"85"}
+  [1m[35mTestrun Load (0.2ms)[0m  SELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1  [["id", 85]]
+  [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."testrun_id" = ?[0m  [["testrun_id", 85]]
+  Rendered testrun_apps/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 42ms (Views: 39.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:56:46 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.3ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (6.7ms)
+Completed 200 OK in 48ms (Views: 45.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:56:46 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:56:46 +0800
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:56:46 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:56:46 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:56:46 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:56:46 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:56:46 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:56:46 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:56:46 +0800
+
+
+Started GET "/testruns/new" for ::1 at 2015-03-10 15:56:49 +0800
+Processing by TestrunsController#new as HTML
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "testruns" ("TestRun_Time", "Product", "SerialNumber", "DeviceVersion", "AndroidVersion", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?)  [["TestRun_Time", "20150310113858_E8OKBC298746"], ["Product", ": K019_4"], ["SerialNumber", "E8OKBC298746"], ["DeviceVersion", ": 12.14.3.1"], ["AndroidVersion", ": 5.0.1"], ["created_at", "2015-03-10 07:56:49.530905"], ["updated_at", "2015-03-10 07:56:49.530905"]]
+  [1m[36mSQL (0.2ms)[0m  [1mINSERT INTO "apps" ("AppNumber", "AppName", "AppVersion", "AppSKU", "AppClass", "AppCategory", "AppPackageName", "ApkStatus", "ApkResult", "AppInstallResult", "AppLaunchResult", "testrun_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)[0m  [["AppNumber", "1"], ["AppName", "LINE 旅遊大亨"], ["AppVersion", "1.0.1"], ["AppSKU", "TW"], ["AppClass", "Game"], ["AppCategory", "休閒"], ["AppPackageName", "com.linecorp.LGGRTW"], ["ApkStatus", "Validated"], ["ApkResult", "Pass"], ["AppInstallResult", "Pass"], ["AppLaunchResult", "Pass"], ["testrun_id", 86], ["created_at", "2015-03-10 07:56:49.533072"], ["updated_at", "2015-03-10 07:56:49.533072"]]
+  [1m[35m (0.9ms)[0m  commit transaction
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.2ms)[0m  INSERT INTO "apps" ("AppNumber", "AppName", "AppVersion", "AppSKU", "AppClass", "AppCategory", "AppPackageName", "ApkStatus", "ApkResult", "AppInstallResult", "AppLaunchResult", "testrun_id", "created_at", "updated_at") VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)  [["AppNumber", "2"], ["AppName", "獸人聯盟(魔獸Q傳週週送萬元現金)"], ["AppVersion", "1.4.2"], ["AppSKU", "TW"], ["AppClass", "Game"], ["AppCategory", "角色扮演"], ["AppPackageName", "com.userjoy.orcleague"], ["ApkStatus", "Validated"], ["ApkResult", "Pass"], ["AppInstallResult", "Pass"], ["AppLaunchResult", "Pass"], ["testrun_id", 86], ["created_at", "2015-03-10 07:56:49.538358"], ["updated_at", "2015-03-10 07:56:49.538358"]]
+  [1m[36m (0.8ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36m (0.1ms)[0m  [1mcommit transaction[0m
+  Rendered testruns/new.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 67ms (Views: 38.6ms | ActiveRecord: 2.9ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:56:49 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:56:49 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:56:49 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:56:49 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:56:49 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:56:49 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:56:49 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:56:49 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:56:49 +0800
+
+
+Started GET "/testruns" for ::1 at 2015-03-10 15:56:54 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.1ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 106ms (Views: 104.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:56:54 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 15:56:54 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 15:56:54 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 15:56:54 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 15:56:54 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 15:56:54 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:56:54 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 15:56:54 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 15:56:54 +0800
+
+
+Started GET "/testruns/86/apps" for ::1 at 2015-03-10 15:56:56 +0800
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"86"}
+  [1m[36mTestrun Load (0.2ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 86]]
+  [1m[35mApp Load (0.4ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."testrun_id" = ?  [["testrun_id", 86]]
+  Rendered testrun_apps/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 122ms (Views: 116.3ms | ActiveRecord: 0.6ms)
