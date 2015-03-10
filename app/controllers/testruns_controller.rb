@@ -8,10 +8,10 @@ class TestrunsController < ApplicationController
 		
 		#testrun_hash=params
 		
-		@hh = params['TestRun_Time']
+		testrun_hash = params.to_h
 
-		file = File.read('report0310.json')
-	    testrun_hash = JSON.parse(file)
+		#file = File.read('report0310.json')
+	    #testrun_hash = JSON.parse(file)
 
 	    tr = Testrun.new
 		tr.TestRun_Time = testrun_hash['TestRun_Time']
