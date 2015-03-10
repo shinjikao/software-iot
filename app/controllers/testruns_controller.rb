@@ -38,7 +38,7 @@ class TestrunsController < ApplicationController
 		tr.AndroidVersion = params[:AndroidVersion]
 		params[:TestRun_Apps].each_with_index {|val, index| 
 			ap = App.new
-			ap.AppNumber = val
+			ap.AppName = val[:AppName]
 			ap.testrun = tr
 			#puts "#{val} => #{index}" 
 		}
