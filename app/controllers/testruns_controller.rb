@@ -14,11 +14,11 @@ class TestrunsController < ApplicationController
 	    #testrun_hash = JSON.parse(file)
 		testrun_hash = JSON.parse(params)
 	    tr = Testrun.new
-		tr.TestRun_Time = testrun_hash['TestRun_Time']
-		tr.Product      = testrun_hash['Product']
-		tr.SerialNumber = testrun_hash['SerialNumber']
-		tr.DeviceVersion = testrun_hash['DeviceVersion']
-		tr.AndroidVersion = testrun_hash['AndroidVersion']
+		tr.TestRun_Time = testrun_hash[:TestRun_Time]
+		tr.Product      = testrun_hash[:Product]
+		tr.SerialNumber = testrun_hash[:SerialNumber]
+		tr.DeviceVersion = testrun_hash[:DeviceVersion]
+		tr.AndroidVersion = testrun_hash[:AndroidVersion]
 		tr.save
 		
       	
