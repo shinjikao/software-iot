@@ -39,6 +39,10 @@ class TestrunsController < ApplicationController
 	    @a = params.to_a
 		@s = params.to_s
 		@pa_inspect = params.inspect
+		tr= Testrun.new
+		tr.TestRun_Time = params[:TestRun_Time]
+		tr.save
+
       	
     	#redirect_to testruns_url
 	end
