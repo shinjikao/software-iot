@@ -12,13 +12,13 @@ class TestrunsController < ApplicationController
 		
 		#file = File.read('report0310.json')
 	    #testrun_hash = JSON.parse(file)
-
+		testrun_hash = JSON.parse(params)
 	    tr = Testrun.new
-		tr.TestRun_Time = params['TestRun_Time']
-		tr.Product      = params['Product']
-		tr.SerialNumber = params['SerialNumber']
-		tr.DeviceVersion = params['DeviceVersion']
-		tr.AndroidVersion = params['AndroidVersion']
+		tr.TestRun_Time = testrun_hash['TestRun_Time']
+		tr.Product      = testrun_hash['Product']
+		tr.SerialNumber = testrun_hash['SerialNumber']
+		tr.DeviceVersion = testrun_hash['DeviceVersion']
+		tr.AndroidVersion = testrun_hash['AndroidVersion']
 		tr.save
 		
       	
