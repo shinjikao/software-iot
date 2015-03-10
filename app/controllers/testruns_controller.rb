@@ -15,7 +15,7 @@ class TestrunsController < ApplicationController
 		@H = @Apps.kind_of?(Hash)
 
 		
-
+		end
 
 		file = File.read('report.json')
 	    testrun_hash = JSON.parse(file)
