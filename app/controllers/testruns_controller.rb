@@ -40,10 +40,8 @@ class TestrunsController < ApplicationController
 		tr.SerialNumber = params[:SerialNumber]
 		tr.DeviceVersion = params[:DeviceVersion]
 		tr.AndroidVersion = params[:AndroidVersion]
-		params[:TestRun_Apps].each do |app|
-			ap = App.new
-			ap.AppName = app[:AppName]
-			ap.save
+		tr.Product =params[:TestRun_Apps][:AppName]
+
 	    tr.save
 		
 		
