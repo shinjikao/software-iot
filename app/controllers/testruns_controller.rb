@@ -36,7 +36,7 @@ class TestrunsController < ApplicationController
 		tr.SerialNumber = params[:SerialNumber]
 		tr.DeviceVersion = params[:DeviceVersion]
 		tr.AndroidVersion = params[:AndroidVersion]
-		tr.Product = params[:TestRun_Apps][:AppName]
+		
 	    tr.save
 		
 		
