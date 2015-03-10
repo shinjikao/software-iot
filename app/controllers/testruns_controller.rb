@@ -18,6 +18,10 @@ class TestrunsController < ApplicationController
 		tr.SerialNumber = params[:SerialNumber]
 		tr.DeviceVersion = params[:DeviceVersion]
 		tr.AndroidVersion = params[:AndroidVersion]
+		params[:TestRun_Apps].each do |app|
+			ap = App.new
+			ap.AppName = app[:AppName]
+			ap.save
 	    tr.save
 		
 		
@@ -26,7 +30,7 @@ class TestrunsController < ApplicationController
 	end
 
 	def create
-		@testrun_hash=params
+				@testrun_hash=params
 		
 		#file = File.read('report0310.json')
 		tr = Testrun.new
@@ -36,9 +40,14 @@ class TestrunsController < ApplicationController
 		tr.SerialNumber = params[:SerialNumber]
 		tr.DeviceVersion = params[:DeviceVersion]
 		tr.AndroidVersion = params[:AndroidVersion]
+		params[:TestRun_Apps].each do |app|
+			ap = App.new
+			ap.AppName = app[:AppName]
+			ap.save
 	    tr.save
+		
+		
 
-      	
     	redirect_to testruns_url
 	end
 
