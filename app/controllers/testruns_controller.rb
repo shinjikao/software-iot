@@ -12,7 +12,7 @@ class TestrunsController < ApplicationController
 		
 		#file = File.read('report0310.json')
 		tr = Testrun.new
-		tr.TestRun_Time =params[:company]
+		tr.TestRun_Time =params[:TestRun_Time]
 	    tr.save
 		#tr= Testrun.new
 		#tr.TestRun_Time = hash[:TestRun_Time]
@@ -33,7 +33,7 @@ class TestrunsController < ApplicationController
 	def create
 		@testrun_hash=params
 		tr = Testrun.new
-		tr.TestRun_Time =params[:company]
+		tr.TestRun_Time =params[:TestRun_Time]
 	    tr.save
 
       	
