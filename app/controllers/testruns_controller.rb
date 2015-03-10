@@ -36,9 +36,13 @@ class TestrunsController < ApplicationController
 		tr.SerialNumber = params[:SerialNumber]
 		tr.DeviceVersion = params[:DeviceVersion]
 		tr.AndroidVersion = params[:AndroidVersion]
-		@f=params[:TestRun_Apps]
-		@h = params[:TestRun_Apps].is_a?(Hash)
-		@class = params[:TestRun_Apps].class
+		params[:TestRun_Apps].each_with_index {|val, index| 
+			ap = App.new
+			ap.AppNumber = val
+			ap.testrun = tr
+			#puts "#{val} => #{index}" 
+		}
+
 
 	    tr.save
 		#redirect_to testruns_url
