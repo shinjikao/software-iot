@@ -12347,3 +12347,40 @@ Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for 
 
 
 Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 19:48:44 +0800
+
+
+Started GET "/testruns/new?TestRun_Time=2020&TestRun_Path=d" for ::1 at 2015-03-10 20:03:49 +0800
+Processing by TestrunsController#new as HTML
+  Parameters: {"TestRun_Time"=>"2020", "TestRun_Path"=>"d"}
+  [1m[36m (0.1ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (0.3ms)[0m  INSERT INTO "testruns" ("TestRun_Time", "created_at", "updated_at") VALUES (?, ?, ?)  [["TestRun_Time", "2020"], ["created_at", "2015-03-10 12:03:49.769997"], ["updated_at", "2015-03-10 12:03:49.769997"]]
+  [1m[36m (9.2ms)[0m  [1mcommit transaction[0m
+  Rendered testruns/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 126ms (Views: 45.5ms | ActiveRecord: 10.1ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 20:03:49 +0800
+
+
+Started GET "/assets/application-5266d2988799ecc8fe6e81eaab412e7d.css?body=1" for ::1 at 2015-03-10 20:03:49 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-10 20:03:49 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-10 20:03:49 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-10 20:03:49 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-10 20:03:49 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 20:03:49 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-10 20:03:49 +0800
+
+
+Started GET "/assets/application-d5dd9df895e734baa4e6c45e5b5415a9.js?body=1" for ::1 at 2015-03-10 20:03:49 +0800

@@ -12,10 +12,8 @@ class TestrunsController < ApplicationController
 		
 		#file = File.read('report0310.json')
 		tr = Testrun.new
-		tr.TestRun_Time =params[:TestRun_Time]
+		tr.TestRun_Time =params[:company]
 	    tr.save
-	    
-		
 		#tr= Testrun.new
 		#tr.TestRun_Time = hash[:TestRun_Time]
 		#tr.save
@@ -29,14 +27,13 @@ class TestrunsController < ApplicationController
 		#tr.AndroidVersion = testrun_hash[:AndroidVersion]
 		#tr.save
 		#@t = tr 
-      	
     	#redirect_to testruns_url
 	end
 
 	def create
 		@testrun_hash=params
 		tr = Testrun.new
-		tr.TestRun_Time =params[:TestRun_Time]
+		tr.TestRun_Time =params[:company]
 	    tr.save
 
       	
