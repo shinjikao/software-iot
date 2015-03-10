@@ -9,6 +9,9 @@ class TestrunsController < ApplicationController
 		#testrun_hash=params
 		@json_obj=params
 
+		@Apps = params['TestRun_Apps']
+		@A = @Apps.kind_of?(Array)
+		@H = @Apps.kind_of?(Hash)
 
 		
 
@@ -30,9 +33,6 @@ class TestrunsController < ApplicationController
 		
 
 	
-		@Apps = hash['TestRun_Apps']
-		@A = @Apps.kind_of?(Array)
-		@H = @Apps.kind_of?(Hash)
 
 		#hash['TestRun_Apps'].each do | app|
 	    	
