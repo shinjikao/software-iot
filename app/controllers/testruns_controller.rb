@@ -36,9 +36,19 @@ class TestrunsController < ApplicationController
 		tr.SerialNumber = params[:SerialNumber]
 		tr.DeviceVersion = params[:DeviceVersion]
 		tr.AndroidVersion = params[:AndroidVersion]
-		params[:TestRun_Apps].each_with_index {|val, index| 
+		params[:TestRun_Apps].each_with_index {|app, index| 
 			ap = App.new
-			ap.AppName = val[:AppName]
+			ap.AppNumber = app[:AppNumber]
+			ap.AppName = app[:AppName]
+			ap.AppVersion =app[:AppVersion]
+			ap.AppSKU = app[:AppSKU]
+		    ap.AppClass =app[:AppClass]
+		    ap.AppCategory =app[:AppCategory]
+		    ap.AppPackageName = app[:AppPackageName]
+		    ap.ApkStatus = app[:ApkStatus]
+		    ap.ApkResult = app[:ApkResult]
+		    ap.AppInstallResult = app[:AppInstallResult]
+		    ap.AppLaunchResult =app[:AppLaunchResult]
 			ap.testrun = tr
 			ap.save
 			#puts "#{val} => #{index}" 
