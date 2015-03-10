@@ -1,4 +1,5 @@
 
+require 'json'
 class TestrunsController < ApplicationController
 	
 	def index
@@ -7,18 +8,17 @@ class TestrunsController < ApplicationController
 
 	def new
 		
-		#testrun_hash=params
+		@testrun_hash=params
 		
 		#file = File.read('report0310.json')
-		@pa = params
-		hash=  JSON.parse(params.to_s)
-	    @h = params.to_h
+		tr = Testrun.new
+		tr.TestRun_Time =params[:TestRun_Time]
+	    tr.save
 	    
-		@s = params.to_s
-		@pa_inspect = params.inspect
-		tr= Testrun.new
-		tr.TestRun_Time = hash[:var1]
-		tr.save
+		
+		#tr= Testrun.new
+		#tr.TestRun_Time = hash[:TestRun_Time]
+		#tr.save
 
 		#params.collect { |k,v| "#{k} ,#{v}" }
 	    #tr = Testrun.new
@@ -34,15 +34,10 @@ class TestrunsController < ApplicationController
 	end
 
 	def create
-
-		@pa = params
-	    @h = params.to_h
-	    @a = params.to_a
-		@s = params.to_s
-		@pa_inspect = params.inspect
-		tr= Testrun.new
-		tr.TestRun_Time = params[:TestRun_Time]
-		tr.save
+		@testrun_hash=params
+		tr = Testrun.new
+		tr.TestRun_Time =params[:TestRun_Time]
+	    tr.save
 
       	
     	#redirect_to testruns_url
