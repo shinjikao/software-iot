@@ -8,19 +8,19 @@ class TestrunsController < ApplicationController
 		
 		#testrun_hash=params
 		
-		
+		testrun_run = params.to_json
 		
 		#file = File.read('report0310.json')
 	    #testrun_hash = JSON.parse(file)
 		
 	    tr = Testrun.new
-		tr.TestRun_Time = params[:TestRun_Time]
-		tr.Product      = params[:Product]
-		tr.SerialNumber = params[:SerialNumber]
-		tr.DeviceVersion = params[:DeviceVersion]
-		tr.AndroidVersion = params[:AndroidVersion]
+		tr.TestRun_Time = testrun_run[:TestRun_Time]
+		tr.Product      = testrun_run[:Product]
+		tr.SerialNumber = testrun_run[:SerialNumber]
+		tr.DeviceVersion = testrun_run[:DeviceVersion]
+		tr.AndroidVersion = testrun_run[:AndroidVersion]
 		tr.save
-		
+		@t = tr 
       	
     	#redirect_to testruns_url
 	end
