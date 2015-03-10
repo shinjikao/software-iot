@@ -11,7 +11,7 @@ class TestrunsController < ApplicationController
 		
 		
 		#file = File.read('report0310.json')
-	    testrun_hash = JSON.parse(file)
+	    testrun_hash = JSON.parse(params)
 		
 	    tr = Testrun.new
 		tr.TestRun_Time = testrun_hash[:TestRun_Time]
