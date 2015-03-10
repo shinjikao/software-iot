@@ -7,13 +7,10 @@ class TestrunsController < ApplicationController
 	def new
 		
 		#testrun_hash=params
-		@json_obj=params
+		@params_class=params.class
 
 		params.each do |p|
-		@Apps = p['TestRun_Apps']
-		@A = @Apps.kind_of?(Array)
-		@H = @Apps.kind_of?(Hash)
-
+		 @apps_class = p['TestRun_Apps'].class
 		
 		end
 
