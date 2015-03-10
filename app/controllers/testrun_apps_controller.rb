@@ -1,5 +1,6 @@
 class TestrunAppsController < ApplicationController
 	before_action :find_testrun
+    skip_before_action :verify_authenticity_token
     def index
     	@apps = @testrun.apps
     end
