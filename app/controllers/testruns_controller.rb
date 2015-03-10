@@ -39,10 +39,7 @@ class TestrunsController < ApplicationController
 		@f=params[:TestRun_Apps]
 
 	    tr.save
-		
-		
-
-    	redirect_to testruns_url
+		#redirect_to testruns_url
 	end
 
 
