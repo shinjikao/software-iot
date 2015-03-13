@@ -1,23 +1,84 @@
-<ul>
+<div class="col-md-12">
+	<label>
+		<h2>TestRun Result</h2>
+	</label>
+</div>
+
+
+
+<div class="col-md-12">
+	<table class="table table-striped">
+
+<thread>
+			<tr>
+				<th>
+					#
+				</th>
+				<th>	
+					類別
+				</th>
+				<th>	
+					分類
+				</th>
+				<th>	
+					名稱
+				</th>
+				<th>
+					包裝名稱
+				</th>
+				<th>
+					測試狀態
+				</th>
+				<th>
+					測試結果(安裝＆啟動)
+				</th>
+					<th>
+					安裝測試結果
+				</th>
+				<th>
+					啟動測試結果
+				</th>
+
+				<th>
+					 下載Log
+				</th>
+
+				<th>
+					覆測人
+				</th>
+
+				<th>
+					覆測結果
+				</th>
+			</tr>
+</thread>
+<tbody>
+
+<%= simple_form_for(@event) do |f| %>
 <% @apps.each do |app| %>
-	<li>
-		#<%= app.AppNumber %>
-		<%= app.AppName %>
-		<%= app.AppPackageName %>
+<tr>
+		<td><%= app.AppNumber %></td>
+		<td><%= app.AppClass %></td>
+		<td><%= app.AppCategory %></td>
+		<td><%= app.AppName %></td>
+		<td>
+			<span class="label label-success"><%= app.AppPackageName %></span>
+		</td>
+		<td><%= app.ApkStatus %></td>
+		<td><%= app.ApkResult %></td>
+		<td><%= app.AppInstallResult %></td>
+		<td><%= app.AppLaunchResult %></td>
+	    <td><%= link_to 'Log', testrun_app_path(@testrun, app) %></td>
+	    <td>    <%= f.input :name, :label => "Event Name1" %></td>
+		<td>    <%= f.input :name, :label => "Event Name2" %></td>
+</tr>
 
-		<%= app.AppClass %>
-		<%= app.AppCategory %>
-		<%= app.ApkStatus %>
-		<%= app.ApkResult %>
-
-		<%= app.AppInstallResult %>
-		<%= app.AppLaunchResult %>
-	    <%= link_to 'show', testrun_app_path(@testrun, app) %>
-	    <%= link_to 'edit', edit_testrun_app_path(@testrun, app) %>
-		<%= link_to 'destroy', testrun_app_path(@testrun, app),:method => :delete %>
-	</li>
 <% end %>
 
-</ul>
+</tbody>
+	</table>
+	<% end %>
+</div>
 
-	  <%= link_to 'back index', testruns_path %>
+
+<%= link_to 'back index', testruns_path %>

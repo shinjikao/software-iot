@@ -1,15 +1,58 @@
-<ul>
-<% @testruns.each do |testrun| %>
-  <li>
-	<%= link_to testrun.TestRun_Time, testrun_apps_path(testrun) %>
-	<%= testrun.TestRun_Path%>
-	<%= testrun.Product%>
-	<%= testrun.SerialNumber%>
-	<%= testrun.DeviceVersion%>
-	<%= testrun.AndroidVersion%>
+<div class="col-md-12">
+	<label>
+		<h2>Summary Report</h2>
+	</label>
+</div>
 
- <%= link_to 'Delete' , testrun_path(testrun), :method => :delete %>
- 
-   </li>
-<% end %>
-</ul>
+
+
+
+<div class="col-md-12">
+	<table class="table table-striped">
+		<thread>
+			<tr>
+				<th colspan="12">
+					統計彙總
+				</th>
+			</tr>
+		</thread>
+		<thread>
+			<tr>
+				<th>
+					測試時間
+				</th>
+				<th>	
+					專案
+				</th>
+				<th>
+					序號
+				</th>
+				<th>
+					裝置版本
+				</th>
+				<th>
+					Android版本
+				</th>
+			</tr>
+		</thread>
+		<tbody>
+			<% @testruns.each do |testrun| %>
+			<tr>
+
+
+
+				<td><%= link_to testrun.TestRun_Time, testrun_apps_path(testrun) %></td>
+				<td><%= testrun.Product%></td>
+				<td><%= testrun.SerialNumber%></td>
+				<td><%= testrun.DeviceVersion%></td>
+				<td><%= testrun.AndroidVersion%></td>
+
+			 	<td><%= link_to 'Delete' , testrun_path(testrun), :method => :delete %></td>
+			 </tr>
+			<% end %>
+
+			
+		</tbody>
+	</table>
+</div>
+
