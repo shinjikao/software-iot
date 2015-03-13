@@ -27,13 +27,13 @@ class TestrunsController < ApplicationController
 			ap.AppName = app[:AppName]
 			ap.AppVersion =app[:AppVersion]
 			ap.AppSKU = app[:AppSKU]
-		    ap.AppClass =app[:AppClass]
-		    ap.AppCategory =app[:AppCategory]
-		    ap.AppPackageName = app[:AppPackageName]
-		    ap.ApkStatus = app[:ApkStatus]
-		    ap.ApkResult = app[:ApkResult]
-		    ap.AppInstallResult = app[:AppInstallResult]
-		    ap.AppLaunchResult =app[:AppLaunchResult]
+      ap.AppClass =app[:AppClass]
+      ap.AppCategory =app[:AppCategory]
+      ap.AppPackageName = app[:AppPackageName]
+      ap.ApkStatus = app[:ApkStatus]
+      ap.ApkResult = app[:ApkResult]
+      ap.AppInstallResult = app[:AppInstallResult]
+      ap.AppLaunchResult =app[:AppLaunchResult]
 			ap.testrun = tr
 			ap.save
 			

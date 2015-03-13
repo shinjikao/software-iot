@@ -54,7 +54,7 @@
 </thread>
 <tbody>
 
-<%= simple_form_for(@event) do |f| %>
+
 <% @apps.each do |app| %>
 <tr>
 		<td><%= app.AppNumber %></td>
@@ -69,15 +69,14 @@
 		<td><%= app.AppInstallResult %></td>
 		<td><%= app.AppLaunchResult %></td>
 	    <td><%= link_to 'Log', testrun_app_path(@testrun, app) %></td>
-	    <td>    <%= f.input :name, :label => "Event Name1" %></td>
-		<td>    <%= f.input :name, :label => "Event Name2" %></td>
+
 </tr>
 
 <% end %>
 
 </tbody>
 	</table>
-	<% end %>
+
 </div>
 
 
