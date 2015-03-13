@@ -14697,3 +14697,85 @@ Processing by TestrunAppsController#index as HTML
   [1m[36mApp Load (0.1ms)[0m  [1mSELECT "apps".* FROM "apps" WHERE "apps"."testrun_id" = ?[0m  [["testrun_id", 86]]
   Rendered testrun_apps/index.html.erb within layouts/application (1.2ms)
 Completed 200 OK in 161ms (Views: 159.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/testruns" for ::1 at 2015-03-13 15:52:05 +0800
+Processing by TestrunsController#index as HTML
+  [1m[35mTestrun Load (0.6ms)[0m  SELECT "testruns".* FROM "testruns"
+  Rendered testruns/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 172ms (Views: 170.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/testrun_apps-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/testruns-64e62ddc273c2f5847f30d698ca14b67.css?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/jquery-87424c3c19e96d4fb033c10ebe21ec40.js?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/turbolinks-f87b3583ca50adb0488b031297f5580d.js?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/application-5f7c64f5824d161a29814b303a9370cd.css?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/bootstrap/carousel-65843039ab1c8b32832fda680448146a.js?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/bootstrap/affix-4aa497ad1a679d7fa3de7aa10db2c248.js?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/bootstrap/dropdown-a234ed5390532f267df4f5a13236de95.js?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/bootstrap/alert-f0634df255bb1dc37f98c8be82434bec.js?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/bootstrap/collapse-4d358a4cbe9ca0a9cc3e124610787f88.js?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/bootstrap/button-1189204cf501fc7ddbe0384f5c7a3e04.js?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/jquery_ujs-e27bd20a10d28155845a22d71ef94f2f.js?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/bootstrap/modal-b75feab289989a62ead5720c2b655fca.js?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/bootstrap/popover-9666a38e5d68a25bd4e839bee36f5d30.js?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/bootstrap/tab-54d92c1012635a68526fcf2590679f4a.js?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/bootstrap-sprockets-3ca152e549e0b8086e1891275d70a987.js?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/testruns-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/bootstrap/scrollspy-5e0c86e7fbc3752c3898df3c690e52fb.js?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/bootstrap/transition-8cd2695d7ee2b30315b7e024422eb427.js?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/application-68f7ba5bd50b298acbba4fe225150893.js?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/bootstrap/tooltip-5a9f4a24a67c380028b0164a546de5f4.js?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/assets/testrun_apps-fcec5b5a277ac7c20cc9f45a209a3bcd.js?body=1" for ::1 at 2015-03-13 15:52:05 +0800
+
+
+Started GET "/testruns/86/apps" for ::1 at 2015-03-13 15:52:07 +0800
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"86"}
+  [1m[36mTestrun Load (0.1ms)[0m  [1mSELECT  "testruns".* FROM "testruns" WHERE "testruns"."id" = ? LIMIT 1[0m  [["id", 86]]
+  [1m[35mApp Load (0.1ms)[0m  SELECT "apps".* FROM "apps" WHERE "apps"."testrun_id" = ?  [["testrun_id", 86]]
+  Rendered testrun_apps/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 221ms (Views: 219.6ms | ActiveRecord: 0.2ms)

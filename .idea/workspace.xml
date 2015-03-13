@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7a430684-7815-43f0-8112-18da642c626e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Gemfile" afterPath="$PROJECT_DIR$/Gemfile" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/development.log" afterPath="$PROJECT_DIR$/log/development.log" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/testrun_apps/index.html.erb" afterPath="$PROJECT_DIR$/app/views/testrun_apps/index.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/controllers/testruns_controller.rb" afterPath="$PROJECT_DIR$/app/controllers/testruns_controller.rb" />
     </list>
     <ignored path="software-iot.iws" />
     <ignored path=".idea/workspace.xml" />
