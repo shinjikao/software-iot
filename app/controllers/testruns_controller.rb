@@ -7,13 +7,52 @@ class TestrunsController < ApplicationController
 	end
 
 	def new
+
+
+    file = File.read('report.json')
+    data_hash = JSON.parse(file)
+    @d = data_hash
+
+    tr = Testrun.new
+
+    tr.TestRun_Time = data_hash["TestRun_Time"]
+    tr.Product      = data_hash["Product"]
+    tr.SerialNumber = data_hash["SerialNumber"]
+    tr.DeviceVersion = data_hash["DeviceVersion"]
+    tr.AndroidVersion = data_hash["AndroidVersion"]
+    data_hash["TestRun_Apps"].each_with_index { |app,index|
+      ap = App.new
+      ap.AppNumber = app["AppNumber"]
+      ap.AppName = app["AppName"]
+      ap.AppVersion =app["AppVersion"]
+      ap.AppSKU = app["AppSKU"]
+      ap.AppClass =app["AppClass"]
+      ap.AppCategory =app["AppCategory"]
+      ap.AppPackageName = app["AppPackageName"]
+      ap.AppNativeCode = app["AppNativeCode"]
+      ap.AppComment = app["AppComment"]
+      ap.ApkStatus = app["ApkStatus"]
+      ap.ApkResult = app["ApkResult"]
+      ap.AppInstallResult = app["AppInstallResult"]
+      ap.AppLaunchResult =app["AppLaunchResult"]
+      ap.testrun = tr
+      ap.save
+
+    }
+
+
+    tr.save
+
+   redirect_to testruns_url
+
 	end
+
+
+
+
 
 	def create
 		#POST
-		@testrun_hash=params
-		
-		#file = File.read('report0310.json')
 		tr = Testrun.new
 		tr.TestRun_Time =params[:TestRun_Time]
 		tr.TestRun_Time = params[:TestRun_Time]
@@ -21,7 +60,7 @@ class TestrunsController < ApplicationController
 		tr.SerialNumber = params[:SerialNumber]
 		tr.DeviceVersion = params[:DeviceVersion]
 		tr.AndroidVersion = params[:AndroidVersion]
-		params[:TestRun_Apps].each_with_index {|app, index| 
+    params[:TestRun_Apps].each_with_index {|app, index|
 			ap = App.new
 			ap.AppNumber = app[:AppNumber]
 			ap.AppName = app[:AppName]
@@ -30,15 +69,19 @@ class TestrunsController < ApplicationController
       ap.AppClass =app[:AppClass]
       ap.AppCategory =app[:AppCategory]
       ap.AppPackageName = app[:AppPackageName]
+      ap.AppNativeCode = app[:AppNativeCode]
+      ap.AppComment = app[:AppComment]
+
       ap.ApkStatus = app[:ApkStatus]
       ap.ApkResult = app[:ApkResult]
       ap.AppInstallResult = app[:AppInstallResult]
       ap.AppLaunchResult =app[:AppLaunchResult]
 			ap.testrun = tr
 			ap.save
-			
+
 		}
 	    tr.save
+
 		redirect_to testruns_url
 	end
 
@@ -55,7 +98,9 @@ class TestrunsController < ApplicationController
 
 	def destroy
 		@testrun = Testrun.find(params[:id])
-		@testrun.destroy
+
+    @testrun.apps.delete_all
+    @testrun.destroy
 		flash[:alert] = "event was successfully deleted"
 		redirect_to testruns_url
 	end

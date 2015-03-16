@@ -1,9 +1,29 @@
 class TestrunAppsController < ApplicationController
 	skip_before_action :verify_authenticity_token
-    before_action :find_testrun
+
 
     def index
-    	@apps = @testrun.apps
+      @a = params[:AppNativeCode]
+      @testrun = Testrun.find( params[:testrun_id])
+      if params[:AppClass]
+        @apps = @testrun.apps.where(:AppClass => params[:AppClass])
+
+      elsif params[:AppNativeCode]
+
+        @apps = @testrun.apps.where("AppNativeCode LIKE ? "    , "#{params[:AppNativeCode]}%")
+
+      elsif  params[:ApkResult] && params[:ApkResult] != "All"
+        @apps = @testrun.apps.where(:ApkResult => params[:ApkResult])
+
+      elsif params[:AppInstallResult]
+        @apps = @testrun.apps.where(:AppInstallResult => params[:AppInstallResult])
+      elsif params[:AppLaunchResult]
+        @apps = @testrun.apps.where(:AppLaunchResult  => params[:AppLaunchResult])
+
+
+      else
+        @apps = @testrun.apps
+      end
     end
 
 
