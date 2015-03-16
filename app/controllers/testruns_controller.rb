@@ -7,11 +7,8 @@ class TestrunsController < ApplicationController
 	end
 
 	def new
-
-
     file = File.read('report.json')
     data_hash = JSON.parse(file)
-    @d = data_hash
 
     tr = Testrun.new
 
@@ -39,11 +36,8 @@ class TestrunsController < ApplicationController
       ap.save
 
     }
-
-
     tr.save
-
-   redirect_to testruns_url
+    redirect_to testruns_url
 
 	end
 
