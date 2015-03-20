@@ -92,6 +92,13 @@
               </ul>
             </div>
           </th>
+
+          <th>
+
+
+          </th>
+
+
           <th>
             <div class="btn-group">
               <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
@@ -104,7 +111,10 @@
               </ul>
             </div>
           </th>
+          <th>
 
+
+          </th>
           <th>
 
           </th>
@@ -154,12 +164,18 @@
 				<th>
 					測試結果(安裝＆啟動)
 				</th>
-					<th>
+                 <th>
 					安裝測試結果
 				</th>
+              <th>
+                安裝失敗原因
+              </th>
 				<th>
 					啟動測試結果
 				</th>
+              <th>
+                啟動失敗原因
+              </th>
 
 				<th>
 					 下載Log
@@ -204,7 +220,9 @@
 		<td><%= app.ApkStatus %></td>
 		<td><%= app.ApkResult %></td>
 		<td><%= app.AppInstallResult %></td>
+        <td><%= app.AppInstallFailReason %></td>
 		<td><%= app.AppLaunchResult %></td>
+        <td><%= app.AppLaunchFailReason %></td>
 	    <td><%= link_to 'Log', testrun_app_path(@testrun, app) %></td>
           <td class="form-group">
 

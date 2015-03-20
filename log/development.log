@@ -18936,3 +18936,10 @@ Completed 302 Found in 47ms (ActiveRecord: 9.9ms)
 Processing by TestrunsController#index as HTML
   Rendered testruns/index.html.erb within layouts/application (1.3ms)
 Completed 200 OK in 202ms (Views: 200.9ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 198ms (Views: 196.9ms | ActiveRecord: 0.1ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"2"}
+  Rendered testrun_apps/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 224ms (Views: 202.1ms | ActiveRecord: 0.5ms)
