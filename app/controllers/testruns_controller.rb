@@ -7,7 +7,7 @@ class TestrunsController < ApplicationController
 	end
 
 	def new
-    file = File.read('report.json')
+    file = File.read('report0320.json')
     data_hash = JSON.parse(file)
 
     tr = Testrun.new
@@ -31,7 +31,9 @@ class TestrunsController < ApplicationController
       ap.ApkStatus = app["ApkStatus"]
       ap.ApkResult = app["ApkResult"]
       ap.AppInstallResult = app["AppInstallResult"]
+      ap.AppInstallFailReason = app["AppInstallReason"]
       ap.AppLaunchResult =app["AppLaunchResult"]
+      ap.AppLaunchFailReason  =app["AppLaunchReason"]
       ap.testrun = tr
       ap.save
 
@@ -69,7 +71,9 @@ class TestrunsController < ApplicationController
       ap.ApkStatus = app[:ApkStatus]
       ap.ApkResult = app[:ApkResult]
       ap.AppInstallResult = app[:AppInstallResult]
+      ap.AppInstallFailReason = app[:AppInstallReason]
       ap.AppLaunchResult =app[:AppLaunchResult]
+      ap.AppLaunchFailReason  =app[:AppLaunchReason]
 			ap.testrun = tr
 			ap.save
 

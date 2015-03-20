@@ -41,6 +41,9 @@
           <th>
 
           </th>
+          <th>
+
+          </th>
 
           <th>
 
@@ -136,6 +139,12 @@
 					包裝名稱
 				</th>
 
+
+              <th>
+                版本
+
+              </th>
+
                 <th>
                     NDK
                 </th>
@@ -184,10 +193,12 @@
 
 
 		<td><%= app.AppName %></td>
+
 		<td>
 			<span class="label label-success"><%= app.AppPackageName %></span>
 		</td>
 
+        <td><%= app.AppVersion %></td>
         <td><%= app.AppNativeCode %></td>
 
 		<td><%= app.ApkStatus %></td>

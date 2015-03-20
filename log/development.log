@@ -18743,3 +18743,196 @@ Completed 302 Found in 20ms (ActiveRecord: 11.9ms)
 Processing by TestrunsController#index as HTML
   Rendered testruns/index.html.erb within layouts/application (1.8ms)
 Completed 200 OK in 168ms (Views: 167.5ms | ActiveRecord: 0.3ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 456ms (Views: 423.7ms | ActiveRecord: 0.3ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 86ms (ActiveRecord: 10.5ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 331ms (Views: 330.6ms | ActiveRecord: 0.1ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 56ms (ActiveRecord: 17.9ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 217ms (Views: 215.6ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Hzr17JlxnQVR0x6UUEZVmcz9La6g+U0WmgK21AClIRD/8+xHz3FsA/wyPDCW55r9BQlewoHypRx4pGF5S2rfJA==", "id"=>"2"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 30ms (ActiveRecord: 3.3ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 273ms (Views: 272.4ms | ActiveRecord: 0.1ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"poO/RG6MNX8CJLNX+T1EYNqqo0TWSUd9XgO0ITm6yVpGSqbvOIzEea/FkfM/nIsEE17QKPdCr3e8pWOMcnU3bg==", "id"=>"1"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 15ms (ActiveRecord: 10.8ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 219ms (Views: 218.4ms | ActiveRecord: 0.1ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 64ms (ActiveRecord: 18.2ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 107ms (ActiveRecord: 68.0ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 203ms (Views: 202.4ms | ActiveRecord: 0.1ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"3"}
+  Rendered testrun_apps/index.html.erb within layouts/application (58.2ms)
+Completed 200 OK in 258ms (Views: 256.6ms | ActiveRecord: 0.4ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"4"}
+  Rendered testrun_apps/index.html.erb within layouts/application (3.7ms)
+Completed 200 OK in 266ms (Views: 264.3ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 203ms (Views: 201.3ms | ActiveRecord: 0.5ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"4"}
+  Rendered testrun_apps/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 201ms (Views: 199.8ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 245ms (Views: 244.0ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"SlWnQaaTUc/UMOgK2/4asLDQK4XtueABN6J92uusEu+qnL7q8JOgyXnRyq4dX9XUeSRY6cyyCAvVBKp3oGPs2w==", "id"=>"4"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 14ms (ActiveRecord: 10.4ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 272ms (Views: 271.6ms | ActiveRecord: 0.1ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"l5RNKX1w/hEFH323Ye0iLv5uy/WIW/8SXbtz0HLvBN93XVSCK3APF6j+XxOnTO1KN5q4malQFxi/HaR9OSD66w==", "id"=>"3"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 13ms (ActiveRecord: 9.9ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 204ms (Views: 202.9ms | ActiveRecord: 0.1ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 161ms (Views: 160.2ms | ActiveRecord: 0.1ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 158ms (Views: 157.2ms | ActiveRecord: 0.1ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 59ms (ActiveRecord: 17.8ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 52ms (ActiveRecord: 12.6ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 213ms (Views: 212.1ms | ActiveRecord: 0.1ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 49ms (ActiveRecord: 9.2ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 152ms (Views: 150.9ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 54ms (ActiveRecord: 10.9ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 48ms (ActiveRecord: 9.7ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 210ms (Views: 209.4ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 58ms (ActiveRecord: 17.3ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 48ms (ActiveRecord: 11.1ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 152ms (Views: 151.3ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 63ms (ActiveRecord: 18.2ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 92ms (ActiveRecord: 55.3ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 151ms (Views: 149.9ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5Lqure8GuqKiqe7SLyE1F6IjMhRD5Rkx2bI1SVlmHtMEc7cGuQZLpA9IzHbpgPpza9dBeGLu8Ts7FOLkEqng5w==", "id"=>"13"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 5ms (ActiveRecord: 2.1ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 160ms (Views: 158.8ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"orDlwovdobW4+Ar5odMXtT0QP+bSLA8lAquA1+9SCLhCefxp3d1QsxUZKF1nctjR9ORMivMn5y/gDVd6pJ32jA==", "id"=>"12"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 14ms (ActiveRecord: 10.4ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 155ms (Views: 153.8ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"2uXxdo/Sxat43qZ+SKmE1efTtLRd2j1Dz4A2orKJhEg6LOjd2dI0rdU/hNqOCEuxLifH2HzR1UktJuEP+UZ6fA==", "id"=>"11"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 14ms (ActiveRecord: 10.9ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 160ms (Views: 159.6ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"qPXJYaWKWQSeBLwRbkCi+GUuieJGlyuvf7VWM7mfHRdIPNDK84qoAjPlnrWo4W2crNr6jmecw6WdE4Ge8lDjIw==", "id"=>"10"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 13ms (ActiveRecord: 10.8ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 154ms (Views: 153.7ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"I8a5XRm3D2nXvcl7IxkyjFFFlTQHzVTF27rgJGCJIiHDD6D2T7f+b3pc69/luP3omLHmWCbGvM85HDeJK0bcFQ==", "id"=>"9"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 14ms (ActiveRecord: 10.4ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 152ms (Views: 151.5ms | ActiveRecord: 0.1ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"OKKeRrCor9qyaM8theBYsr63ntJDJu+6hERXqzIJOBDYa4ft5qhe3B+J7YlDQZfWd0PtvmItB7Bm4oAGecbGJA==", "id"=>"8"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 14ms (ActiveRecord: 10.8ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 237ms (Views: 236.7ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"FkkMIulUI3Aqe/1yauDlea7Su2K24fk7i6QKEWviQK72gBWJv1TSdoea39asQSodZybIDpfqETFpAt28IC2+mg==", "id"=>"7"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 13ms (ActiveRecord: 10.2ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 161ms (Views: 160.1ms | ActiveRecord: 0.1ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ve2SpteUTxhnDOym7Rzhipdj5KZ3pEj4g9GR1l4SJr1dJIsNgZS+HsrtzgIrvS7uXpeXylavoPJhd0Z7Fd3YiQ==", "id"=>"6"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 5ms (ActiveRecord: 2.6ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 213ms (Views: 211.7ms | ActiveRecord: 0.1ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"4Z2Ye5B/X8/AWyg7NkcadUkBloGwG4SCq7HkJZ6kOs0BVIHQxn+uyW26Cp/w5tURgPXl7ZEQbIhJFzOI1WvE+Q==", "id"=>"5"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 14ms (ActiveRecord: 10.9ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (0.4ms)
+Completed 200 OK in 157ms (Views: 156.5ms | ActiveRecord: 0.1ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 416ms (Views: 386.0ms | ActiveRecord: 0.3ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 192ms (ActiveRecord: 10.4ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 47ms (ActiveRecord: 9.9ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 202ms (Views: 200.9ms | ActiveRecord: 0.2ms)

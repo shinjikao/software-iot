@@ -26,10 +26,13 @@ ActiveRecord::Schema.define(version: 20150316073511) do
     t.string   "AppInstallResult"
     t.string   "AppLaunchResult"
     t.integer  "testrun_id"
-    t.datetime "created_at",       null: false
-    t.datetime "updated_at",       null: false
+    t.datetime "created_at",           null: false
+    t.datetime "updated_at",           null: false
     t.string   "AppNativeCode"
     t.string   "AppComment"
+    t.string   "AppInstallFailReason"
+    t.string   "AppLaunchFailReason"
+    t.string   "LogPath"
   end
 
   create_table "testruns", force: :cascade do |t|
