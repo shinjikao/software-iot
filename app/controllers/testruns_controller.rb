@@ -4,6 +4,7 @@ class TestrunsController < ApplicationController
 	skip_before_action :verify_authenticity_token
 	def index
 		@testruns = Testrun.all
+    @app = App.find(1)
 	end
 
 	def new

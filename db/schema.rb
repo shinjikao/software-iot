@@ -11,7 +11,7 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 20150316073511) do
+ActiveRecord::Schema.define(version: 20150322141727) do
 
   create_table "apps", force: :cascade do |t|
     t.string   "AppNumber"
@@ -33,6 +33,9 @@ ActiveRecord::Schema.define(version: 20150316073511) do
     t.string   "AppInstallFailReason"
     t.string   "AppLaunchFailReason"
     t.string   "LogPath"
+    t.string   "Tester"
+    t.string   "TesterResult"
+    t.string   "TesterComment"
   end
 
   create_table "testruns", force: :cascade do |t|

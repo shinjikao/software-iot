@@ -1,4 +1,3 @@
-<%= debug(@a) %>
 <div class="col-md-12">
 	<label>
 		<h2>TestRun Result <span style="font-size: 16pt" class="badge"><%= @apps.length %></span> </h2>
@@ -205,9 +204,6 @@
 		<td>
           <span class="label label-info"> <%= app.AppCategory%></span>
         </td>
-
-
-
 		<td><%= app.AppName %></td>
 
 		<td>
@@ -224,7 +220,9 @@
 		<td><%= app.AppLaunchResult %></td>
         <td><%= app.AppLaunchFailReason %></td>
 	    <td><%= link_to 'Log', testrun_app_path(@testrun, app) %></td>
-          <td class="form-group">
+        <td><%= app.Tester %></td>
+        <td><%= app.TesterResult %></td>
+          <!--<td class="form-group">
 
 
               <select class="form-control" id="select">
@@ -243,7 +241,15 @@
             <input type="text" size="2" class="form-control" id="test_usr">
 
           </td>
-          <td> <button class="btn btn-danger"> Save</button></td>
+          -->
+
+          <td>
+
+              <%= link_to  'Save', edit_testrun_app_path( @testrun , app), :class => 'btn btn-danger',:method => :get%>
+
+
+          </td>
+
 
 
 </tr>

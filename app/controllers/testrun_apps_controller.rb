@@ -3,7 +3,7 @@ class TestrunAppsController < ApplicationController
 
 
     def index
-      @a = params[:AppNativeCode]
+
       @testrun = Testrun.find( params[:testrun_id])
       if params[:AppClass]
         @apps = @testrun.apps.where(:AppClass => params[:AppClass])
@@ -20,7 +20,6 @@ class TestrunAppsController < ApplicationController
       elsif params[:AppLaunchResult]
         @apps = @testrun.apps.where(:AppLaunchResult  => params[:AppLaunchResult])
 
-
       else
         @apps = @testrun.apps
       end
@@ -28,15 +27,23 @@ class TestrunAppsController < ApplicationController
 
 
     def show
+      @testrun = Testrun.find(params[:testrun_id])
     	@app =@testrun.apps.find(params[:id])
     end
 
-    def new
+    def edit
+      @testrun = Testrun.find(params[:testrun_id])
+      @app = @testrun.apps.find(params[:id])
+    end
+
+
+  def new
     	@app = @testrun.apps.build
     end
 
 
     def create
+      @testrun = Testrun.find(params[:testrun_id])
     	@app = @testrun.apps.build(app_params)
     	if @app.save
     		redirect_to testrun_apps_url (@testrun)
@@ -46,13 +53,12 @@ class TestrunAppsController < ApplicationController
     end
 
 
-    def edit
-    	@app = @testrun.apps.find(params[:id])
-    end
-
     def update
-		@app = @testrun.apps.build(params[:id])
-    	if @app.update(app_params)
+      @testrun = Testrun.find(params[:testrun_id])
+      @app = @testrun.apps.find(params[:id])
+    	if @app.update(:Tester => params.require(:app)[:Tester],
+                     :TesterResult => params.require(:app)[:TesterResult],
+                     :TesterComment => params.require(:app)[:TesterComment])
     		redirect_to testrun_apps_url (@testrun)
     	else
     		render :action => :edit
@@ -72,9 +78,8 @@ class TestrunAppsController < ApplicationController
 
   	def app_params
   		params.require(:app).permit(:AppPackageName)
-  	end
+    end
 
-    	
     
 
 end

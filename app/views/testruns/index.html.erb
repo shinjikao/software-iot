@@ -5,10 +5,6 @@
 </div>
 
 
-
-
-
-
 <div class="col-md-12">
 	<table class="table table-striped">
 		<thread>
@@ -41,9 +37,7 @@
 			<% @testruns.each do |testrun| %>
 			<tr>
 
-
-
-				<td><%= link_to testrun.TestRun_Time, testrun_apps_path(testrun) %></td>
+              <td><%= link_to testrun.TestRun_Time, testrun_apps_path(testrun) %></td>
 				<td><%= testrun.Product%></td>
 				<td><%= testrun.SerialNumber%></td>
 				<td><%= testrun.DeviceVersion%></td>
