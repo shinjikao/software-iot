@@ -21,7 +21,7 @@
 <%= simple_form_for @app,
                     :url=> url_for( :action => 'update' , :controller =>  'testrun_apps'),
                     :method=> 'patch' do |f| %>
-    
+
     <%= f.input :Tester  , :label => "Tester"%>
     <%= f.input :TesterResult  , :label => "Tester  Validate Result"%>
     <%= f.input :TesterComment  ,as: :text , :label => "Tester Comment"%>
