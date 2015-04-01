@@ -20972,3 +20972,1950 @@ Processing by TestrunAppsController#edit as HTML
   Parameters: {"authenticity_token"=>"v1sdvIdqxAmiwbM+bNsVRuY67txCbockRQ9CzRoH3ReYcnUGkLcB0z/axUHFZnbBdjeqeJGPSv0v/XNKes6RGA==", "testrun_id"=>"2", "id"=>"11"}
   Rendered testrun_apps/edit.html.erb within layouts/application (87.3ms)
 Completed 200 OK in 252ms (Views: 250.5ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (13.4ms)
+Completed 200 OK in 556ms (Views: 437.7ms | ActiveRecord: 2.1ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"2"}
+  Rendered testrun_apps/index.html.erb within layouts/application (69.7ms)
+Completed 200 OK in 256ms (Views: 236.8ms | ActiveRecord: 0.5ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"authenticity_token"=>"+A9bFC/Rcc5lHgIQhMN6Lt+EfevhU4n0pC5XWxsuphQBNxqkUyPA/+V808Kbi9CbMT9RRWNX7EY1fS2dAtGSNQ==", "testrun_id"=>"2", "id"=>"11"}
+  Rendered testrun_apps/edit.html.erb within layouts/application (18.7ms)
+Completed 500 Internal Server Error in 24ms
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (10.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (118.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (25.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (61.1ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"authenticity_token"=>"+A9bFC/Rcc5lHgIQhMN6Lt+EfevhU4n0pC5XWxsuphQBNxqkUyPA/+V808Kbi9CbMT9RRWNX7EY1fS2dAtGSNQ==", "testrun_id"=>"2", "id"=>"11"}
+  Rendered testrun_apps/edit.html.erb within layouts/application (135.2ms)
+Completed 200 OK in 432ms (Views: 429.2ms | ActiveRecord: 0.2ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"testrun_id"=>"2", "id"=>"11"}
+  Rendered testrun_apps/edit.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 232ms (Views: 229.6ms | ActiveRecord: 0.2ms)
+Processing by TestrunAppsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"3YpjTD/+4B0FBPHQz7z3hn1eP8YsEwHv2x/PLv2rLUUksiL8QwxRLIVmIALQ9F0zk+UTaK4XZF1KTLXo5FQZZA==", "app"=>{"Tester"=>"jackal", "TesterResult"=>"pass", "TesterComment"=>"leave a comment"}, "commit"=>"Update App", "testrun_id"=>"2", "id"=>"11"}
+Redirected to http://localhost:3000/testruns/2/apps
+Completed 302 Found in 11ms (ActiveRecord: 1.7ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"2"}
+  Rendered testrun_apps/index.html.erb within layouts/application (88.0ms)
+Completed 200 OK in 262ms (Views: 258.8ms | ActiveRecord: 0.5ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"authenticity_token"=>"i/nmear/pxXi5FnAWiOZ+7ABHzPdsj86yAu5x1m6/K9ywafJ1g0WJGKGiBJFazNOXroznV+2WohZWMMBQEXIjg==", "testrun_id"=>"2", "id"=>"11"}
+  Rendered testrun_apps/edit.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 215ms (Views: 211.0ms | ActiveRecord: 0.4ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"testrun_id"=>"2", "id"=>"11"}
+  Rendered testrun_apps/edit.html.erb within layouts/application (10.2ms)
+Completed 200 OK in 160ms (Views: 157.7ms | ActiveRecord: 0.2ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"testrun_id"=>"2", "id"=>"11"}
+Completed 404 Not Found in 52ms
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (38.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (29.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (60.9ms)
+Processing by TestrunsController#index as HTML
+Completed 404 Not Found in 6ms
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (18.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.2ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 501ms (ActiveRecord: 69.4ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 279ms (Views: 276.2ms | ActiveRecord: 0.5ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"1"}
+  Rendered testrun_apps/index.html.erb within layouts/application (23.2ms)
+Completed 200 OK in 231ms (Views: 226.2ms | ActiveRecord: 0.9ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"UgsJv2Zcfn349JGr7/dd3/2HC9lxqWq7K7Key0zrQw2rM0gPGq7PTHiWQHnwv/dqEzwnd/OtDwm64eQNVRR3LA==", "id"=>"1"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 14ms (ActiveRecord: 10.0ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 344ms (Views: 341.9ms | ActiveRecord: 0.5ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 459ms (ActiveRecord: 73.3ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 468ms (ActiveRecord: 96.7ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 232ms (Views: 230.4ms | ActiveRecord: 0.3ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"3"}
+  Rendered testrun_apps/index.html.erb within layouts/application (74.4ms)
+Completed 200 OK in 283ms (Views: 280.4ms | ActiveRecord: 0.6ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"uEXiEFYsrrXY2aWz9/bFFu3v2uPe6fcQe6cCEk6ntjRBfaOgKt4fhFi7dGHovm+jA1T2TVztkqLq9HjUV1iCFQ==", "id"=>"2"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 15ms (ActiveRecord: 10.3ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 216ms (Views: 214.4ms | ActiveRecord: 0.3ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5WvI0pRiS+GKkRFZ9E1vaTR6EyVs80PfxPW6K0Od13gcU4li6JD60ArzwIvrBcXc2sE/i+73Jm1VpsDtWmLjWQ==", "id"=>"3"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 5ms (ActiveRecord: 2.3ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 273ms (Views: 271.2ms | ActiveRecord: 0.4ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 434ms (ActiveRecord: 76.9ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 468ms (ActiveRecord: 72.3ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 219ms (Views: 217.3ms | ActiveRecord: 0.3ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"5STM9Ty3QxfojBUNjRt9McEK5DPYpFnjtpuAoKkDzIscHI1FQEXyJmjuxN+SU9eEL7HInVqgPFEnyPpmsPz4qg==", "id"=>"5"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 14ms (ActiveRecord: 10.1ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 295ms (Views: 293.8ms | ActiveRecord: 0.3ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ZquXKgXOrkXWDf7JhGbYzAfyMdB0Am9ErlIH8PpamvGfk9aaeTwfdFZvLxubLnJ56UkdfvYGCvY/AX0246Wu0A==", "id"=>"4"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 13ms (ActiveRecord: 9.8ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 215ms (Views: 214.4ms | ActiveRecord: 0.3ms)
+Processing by TestrunsController#index as HTML
+Completed 404 Not Found in 11ms
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (31.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (23.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (50.2ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 502ms (ActiveRecord: 76.1ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 234ms (Views: 232.1ms | ActiveRecord: 0.4ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 452ms (ActiveRecord: 74.1ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (2.7ms)
+Completed 200 OK in 221ms (Views: 219.2ms | ActiveRecord: 0.4ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"Qu7Z8qPCrWDf2rBdwT0A/fNtlLR3PaY7d7K/kmOrUJm71phC3zAcUV+4YY/edapIHda4GvU5w4nm4cVUelRkuA==", "id"=>"2"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 9ms (ActiveRecord: 2.8ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 222ms (Views: 220.3ms | ActiveRecord: 0.4ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 285ms (Views: 194.7ms | ActiveRecord: 2.4ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 495ms (ActiveRecord: 71.2ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 457ms (ActiveRecord: 74.5ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 273ms (Views: 271.5ms | ActiveRecord: 0.3ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ueJsAxYRtVy8ICVExePIKQrO1SE59OGoHIj4+hQ//0JA2i2zauMEbTxC9Jbaq2Kc5HX5j7vwhBqN24I8DcDLYw==", "id"=>"4"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 17ms (ActiveRecord: 11.1ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 232ms (Views: 230.4ms | ActiveRecord: 0.4ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"1iFZZSG/ucAkeF5EEelsJj2Nhx3GFT8HU+YMaLacg+cvGRjVXU0I8aQaj5YOocaT0zars0QRWrXCtXaur2O3xg==", "id"=>"3"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 6ms (ActiveRecord: 2.4ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 293ms (Views: 291.3ms | ActiveRecord: 0.4ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"e+lmM2Z/ZhhHjWp3588Jjz4MHgWTXkl18yuEfrJKihSC0SeDGo3XKcfvu6X4h6M60LcyqxFaLMdieP64q7W+NQ==", "id"=>"1"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 13ms (ActiveRecord: 10.3ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 215ms (Views: 214.3ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 446ms (ActiveRecord: 70.3ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 219ms (Views: 217.2ms | ActiveRecord: 0.3ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 277ms (Views: 275.3ms | ActiveRecord: 0.4ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 221ms (Views: 219.5ms | ActiveRecord: 0.3ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (3.2ms)
+Completed 200 OK in 276ms (Views: 274.5ms | ActiveRecord: 0.4ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"vXxYDEw+jJCGnIP9ooCyX8pWi5QwZRdmy1OGO6rX48NERBm8MMw9oQb+Ui+9yBjqJO2nOrJhctRaAPz9syjX4g==", "id"=>"5"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 7ms (ActiveRecord: 2.8ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 228ms (Views: 226.9ms | ActiveRecord: 0.3ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 547ms (ActiveRecord: 87.2ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 218ms (Views: 216.3ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"id3wzbbaTJbZR/6bPguHWCnXRPbH1nDebNeEiu/Da0Bw5bF9yij9p1klL0khQy3tx2xoWEXSFWz9hP5M9jxfYQ==", "id"=>"6"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 8ms (ActiveRecord: 3.1ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 235ms (Views: 233.9ms | ActiveRecord: 0.3ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 171ms (ActiveRecord: 21.9ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 187ms (Views: 185.3ms | ActiveRecord: 0.4ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"f2s1LGoLKfDBuxgrgZ8P/JiHVOAh5LjSCmys4BxfGsmGU3ScFvmYwUHZyfme16VJdjx4TqPg3WCbP9YmBaAu6A==", "id"=>"7"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 27ms (ActiveRecord: 4.6ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 242ms (Views: 222.7ms | ActiveRecord: 0.5ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 110ms (ActiveRecord: 19.8ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 216ms (Views: 214.8ms | ActiveRecord: 0.3ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/index.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 313ms (Views: 310.1ms | ActiveRecord: 1.0ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 218ms (Views: 216.9ms | ActiveRecord: 0.4ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 222ms (Views: 220.1ms | ActiveRecord: 0.3ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.4ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (12.5ms)
+Completed 200 OK in 279ms (Views: 276.6ms | ActiveRecord: 0.6ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.3ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 247ms (Views: 243.1ms | ActiveRecord: 0.9ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.4ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 300ms (Views: 298.0ms | ActiveRecord: 0.5ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 289ms (Views: 284.1ms | ActiveRecord: 0.7ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 225ms (Views: 223.5ms | ActiveRecord: 0.2ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.5ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (73.0ms)
+Completed 200 OK in 284ms (Views: 282.0ms | ActiveRecord: 0.7ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.4ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (13.5ms)
+Completed 200 OK in 220ms (Views: 217.2ms | ActiveRecord: 0.7ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 301ms (Views: 298.0ms | ActiveRecord: 0.9ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 237ms (Views: 233.0ms | ActiveRecord: 1.1ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (79.6ms)
+Completed 200 OK in 293ms (Views: 289.6ms | ActiveRecord: 1.0ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/index.html.erb within layouts/application (8.0ms)
+Completed 200 OK in 222ms (Views: 218.3ms | ActiveRecord: 1.1ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/index.html.erb within layouts/application (6.4ms)
+Completed 200 OK in 222ms (Views: 219.8ms | ActiveRecord: 0.5ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 220ms (Views: 217.4ms | ActiveRecord: 0.9ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 232ms (Views: 229.7ms | ActiveRecord: 0.6ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (60.8ms)
+Completed 200 OK in 3895ms (Views: 3891.4ms | ActiveRecord: 1.0ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 143ms (Views: 131.2ms | ActiveRecord: 9.0ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (7.8ms)
+Completed 200 OK in 2380ms (Views: 2378.5ms | ActiveRecord: 0.4ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 108ms (Views: 106.3ms | ActiveRecord: 0.7ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (0.8ms)
+Completed 500 Internal Server Error in 20ms
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (14.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (40.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (22.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (52.8ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.9ms)
+Completed 500 Internal Server Error in 690ms
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (24.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (17.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (32.3ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.0ms)
+Completed 500 Internal Server Error in 18ms
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (8.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (12.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (26.7ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 2098ms (Views: 2095.6ms | ActiveRecord: 0.7ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.5ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (14.1ms)
+Completed 200 OK in 144ms (Views: 140.9ms | ActiveRecord: 0.9ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 2336ms (Views: 2332.6ms | ActiveRecord: 1.0ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (10.6ms)
+Completed 200 OK in 2078ms (Views: 2075.1ms | ActiveRecord: 0.4ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (8.6ms)
+Completed 200 OK in 2051ms (Views: 2047.8ms | ActiveRecord: 0.7ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (8.1ms)
+Completed 200 OK in 103ms (Views: 100.3ms | ActiveRecord: 0.5ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 2035ms (Views: 2033.0ms | ActiveRecord: 0.4ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (10.1ms)
+Completed 500 Internal Server Error in 573ms
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (11.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (5.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (35.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (23.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (49.5ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.4ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (10.0ms)
+Completed 200 OK in 123ms (Views: 120.4ms | ActiveRecord: 0.6ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.4ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (9.4ms)
+Completed 200 OK in 2394ms (Views: 2392.2ms | ActiveRecord: 0.5ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"authenticity_token"=>"aCfJBZByua9rS4LnyGoIRp1gV6rJ3wov7LWFwwT+G0eRH4i17IAInuspUzXXIqLzc9t7BEvbb5195v8FHQEvZg==", "testrun_id"=>"8", "id"=>"364"}
+  Rendered testrun_apps/_form.html.erb (0.2ms)
+  Rendered testrun_apps/edit.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 136ms (Views: 129.4ms | ActiveRecord: 1.3ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"testrun_id"=>"8", "id"=>"364"}
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/edit.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 110ms (Views: 107.3ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 94ms (Views: 92.4ms | ActiveRecord: 0.3ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.5ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (24.4ms)
+Completed 200 OK in 177ms (Views: 174.8ms | ActiveRecord: 0.5ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/_apps.html.erb (0.7ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (19.6ms)
+Completed 200 OK in 132ms (Views: 128.8ms | ActiveRecord: 0.8ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 106ms (Views: 104.1ms | ActiveRecord: 0.3ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 108ms (Views: 106.5ms | ActiveRecord: 0.2ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"8"}
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 182ms (Views: 179.8ms | ActiveRecord: 0.5ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"authenticity_token"=>"25LGlHa6w2JHCHqhJGg3Bd2Bkd9T3+X083jPGz9TqT8iqockCkhyU8dqq3M7IJ2wMzq9cdHbgEZiK7XdJqydHg==", "testrun_id"=>"8", "id"=>"364"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/edit.html.erb within layouts/application (31.1ms)
+Completed 500 Internal Server Error in 38ms
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (27.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (18.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (39.8ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"authenticity_token"=>"25LGlHa6w2JHCHqhJGg3Bd2Bkd9T3+X083jPGz9TqT8iqockCkhyU8dqq3M7IJ2wMzq9cdHbgEZiK7XdJqydHg==", "testrun_id"=>"8", "id"=>"364"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/edit.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 119ms (Views: 115.7ms | ActiveRecord: 0.2ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"testrun_id"=>"8", "id"=>"364"}
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/edit.html.erb within layouts/application (14.3ms)
+Completed 200 OK in 132ms (Views: 128.4ms | ActiveRecord: 0.3ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"testrun_id"=>"8", "id"=>"364"}
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/edit.html.erb within layouts/application (13.3ms)
+Completed 200 OK in 120ms (Views: 117.5ms | ActiveRecord: 0.2ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"testrun_id"=>"8", "id"=>"364"}
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/edit.html.erb within layouts/application (11.2ms)
+Completed 200 OK in 175ms (Views: 172.3ms | ActiveRecord: 0.2ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"testrun_id"=>"8", "id"=>"364"}
+  Rendered testrun_apps/_form.html.erb (0.4ms)
+  Rendered testrun_apps/_apps.html.erb (0.6ms)
+  Rendered testrun_apps/edit.html.erb within layouts/application (11.8ms)
+Completed 200 OK in 133ms (Views: 130.3ms | ActiveRecord: 0.2ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"testrun_id"=>"8", "id"=>"364"}
+  Rendered testrun_apps/_form.html.erb (0.4ms)
+  Rendered testrun_apps/_apps.html.erb (0.9ms)
+  Rendered testrun_apps/edit.html.erb within layouts/application (12.8ms)
+Completed 200 OK in 125ms (Views: 120.8ms | ActiveRecord: 0.4ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (17.8ms)
+Completed 200 OK in 163ms (Views: 136.7ms | ActiveRecord: 2.5ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"zUemuX/iiw3u4Dmaiz+GNd/LbntDfZpCKaGx6YjzGWw0f+cJAxA6PG6C6EiUdyyAMXBC1cF5//C48ssvkQwtTQ==", "id"=>"8"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 15ms (ActiveRecord: 6.2ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 243ms (Views: 241.8ms | ActiveRecord: 0.4ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 133ms (ActiveRecord: 21.1ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 121ms (Views: 118.8ms | ActiveRecord: 0.4ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (25.4ms)
+Completed 200 OK in 141ms (Views: 137.8ms | ActiveRecord: 1.1ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"authenticity_token"=>"/O1/tlTcI94Rm4Ale4L3XxFHq9Gzdueo7OlyTq3uB3UF1T4GKC6S75H5Ufdkyl3q//yHfzFyghp9ugiItBEzVA==", "testrun_id"=>"9", "id"=>"381"}
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/edit.html.erb within layouts/application (11.0ms)
+Completed 200 OK in 141ms (Views: 136.8ms | ActiveRecord: 0.4ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"testrun_id"=>"9", "id"=>"381"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/edit.html.erb within layouts/application (12.7ms)
+Completed 200 OK in 139ms (Views: 135.1ms | ActiveRecord: 0.4ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"testrun_id"=>"9", "id"=>"381"}
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/_apps.html.erb (1.2ms)
+  Rendered testrun_apps/edit.html.erb within layouts/application (15.1ms)
+Completed 200 OK in 136ms (Views: 133.4ms | ActiveRecord: 0.2ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"testrun_id"=>"9", "id"=>"381"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/edit.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 121ms (Views: 118.2ms | ActiveRecord: 0.2ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (18.3ms)
+Completed 200 OK in 126ms (Views: 124.3ms | ActiveRecord: 0.7ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.4ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 136ms (Views: 133.7ms | ActiveRecord: 0.5ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (22.1ms)
+Completed 200 OK in 150ms (Views: 146.7ms | ActiveRecord: 1.0ms)
+Processing by TestrunAppsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"m51sTDDPFQp7lBuGBMWq+tlBLtiNfldMLOtB+pevn05ipS38TD2kO/v2ylQbjQBPN/oCdg96Mv69uDs8jlCrbw==", "testrun_id"=>"9", "id"=>"390"}
+Completed 500 Internal Server Error in 2ms
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (30.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (23.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (48.5ms)
+Processing by TestrunAppsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"m51sTDDPFQp7lBuGBMWq+tlBLtiNfldMLOtB+pevn05ipS38TD2kO/v2ylQbjQBPN/oCdg96Mv69uDs8jlCrbw==", "testrun_id"=>"9", "id"=>"390"}
+Redirected to http://localhost:3000/testruns/9/apps
+Completed 302 Found in 54ms (ActiveRecord: 3.9ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.4ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (33.1ms)
+Completed 200 OK in 159ms (Views: 156.0ms | ActiveRecord: 1.5ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.6ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (23.8ms)
+Completed 200 OK in 150ms (Views: 146.3ms | ActiveRecord: 1.2ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"authenticity_token"=>"2lCP+7oJLzWIL5hMQEEwNDRYg6EbXbZ7CPYTWX3xBSUjaM5LxvueBAhNSZ5fCZqB2uOvD5lZ08mZpWmfZA4xBA==", "testrun_id"=>"9", "id"=>"380"}
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/edit.html.erb within layouts/application (12.9ms)
+Completed 200 OK in 193ms (Views: 188.6ms | ActiveRecord: 0.7ms)
+Processing by TestrunAppsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"2lCP+7oJLzWIL5hMQEEwNDRYg6EbXbZ7CPYTWX3xBSUjaM5LxvueBAhNSZ5fCZqB2uOvD5lZ08mZpWmfZA4xBA==", "testrun_id"=>"9", "id"=>"380"}
+Redirected to http://localhost:3000/testruns/9/apps
+Completed 302 Found in 18ms (ActiveRecord: 10.4ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (21.1ms)
+Completed 200 OK in 132ms (Views: 128.9ms | ActiveRecord: 0.9ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 136ms (Views: 133.5ms | ActiveRecord: 0.7ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"authenticity_token"=>"4vmSjIaqOvK1QRfKsL0yw+HmIKZ8QU6iLFwsv60lkasbwdM8+liLwzUjxhiv9Zh2D10MCP5FKxC9D1Z5tNqlig==", "testrun_id"=>"9", "id"=>"381"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/edit.html.erb within layouts/application (12.3ms)
+Completed 200 OK in 138ms (Views: 132.9ms | ActiveRecord: 0.4ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.4ms)
+  Rendered testrun_apps/_apps.html.erb (0.7ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (24.7ms)
+Completed 200 OK in 201ms (Views: 199.0ms | ActiveRecord: 0.6ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.4ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (27.2ms)
+Completed 200 OK in 148ms (Views: 144.9ms | ActiveRecord: 0.7ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 143ms (Views: 140.1ms | ActiveRecord: 0.8ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (22.4ms)
+Completed 200 OK in 152ms (Views: 148.3ms | ActiveRecord: 0.8ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.4ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (19.4ms)
+Completed 200 OK in 205ms (Views: 200.5ms | ActiveRecord: 1.4ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.6ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (28.0ms)
+Completed 200 OK in 149ms (Views: 145.5ms | ActiveRecord: 1.4ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (3.7ms)
+  Rendered testrun_apps/_apps.html.erb (0.4ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.4ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 157ms (Views: 148.6ms | ActiveRecord: 2.0ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (16.9ms)
+Completed 200 OK in 133ms (Views: 130.4ms | ActiveRecord: 0.5ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.4ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 200ms (Views: 198.0ms | ActiveRecord: 0.5ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.4ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (17.9ms)
+Completed 200 OK in 151ms (Views: 148.3ms | ActiveRecord: 0.9ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.5ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (21.8ms)
+Completed 200 OK in 143ms (Views: 140.1ms | ActiveRecord: 0.6ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"authenticity_token"=>"sZf3PeHQANzJ4iXORnEWw2t3TFMfLm9CE8vM3vzOP+NIr7aNnSKx7UmA9BxZObx2hcxg/Z0qCvCCmLYY5TELwg==", "testrun_id"=>"9", "id"=>"381"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/edit.html.erb within layouts/application (12.6ms)
+Completed 200 OK in 146ms (Views: 142.3ms | ActiveRecord: 0.6ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.4ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (20.8ms)
+Completed 200 OK in 202ms (Views: 199.6ms | ActiveRecord: 0.7ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.4ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 159ms (Views: 156.9ms | ActiveRecord: 0.5ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_form.html.erb (0.4ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (18.9ms)
+Completed 200 OK in 147ms (Views: 144.6ms | ActiveRecord: 0.5ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"authenticity_token"=>"qdUygiyxBJgYyP+4f7PEYEX2Eyf4Oul0KlAoySaspzFQ7XMyUEO1qZiqLmpg+27Vq00/iXo+jMa7A1IPP1OTEA==", "testrun_id"=>"9", "id"=>"381"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/edit.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 133ms (Views: 129.6ms | ActiveRecord: 0.6ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (3.2ms)
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 226ms (Views: 222.6ms | ActiveRecord: 1.2ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (2.1ms)
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (20.5ms)
+Completed 200 OK in 151ms (Views: 149.3ms | ActiveRecord: 0.4ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 136ms (Views: 131.7ms | ActiveRecord: 0.7ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (2.6ms)
+  Rendered testrun_apps/_form.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (20.7ms)
+Completed 200 OK in 151ms (Views: 147.9ms | ActiveRecord: 0.6ms)
+Processing by TestrunAppsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"uG+r+xk1fGvlIyhoij/2tr3g+cLX7Gw5xy9jpX4xTc1BV+pLZcfNWmVB+bqVd1wDU1vVbFXoCYtWfBljZ8557A==", "testrun_id"=>"9", "id"=>"381"}
+Redirected to http://localhost:3000/testruns/9/apps
+Completed 302 Found in 5ms (ActiveRecord: 1.3ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (3.6ms)
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (25.4ms)
+Completed 200 OK in 144ms (Views: 141.1ms | ActiveRecord: 0.7ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (4.2ms)
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (88.1ms)
+Completed 200 OK in 237ms (Views: 213.5ms | ActiveRecord: 2.7ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (2.1ms)
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.5ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (62.9ms)
+Completed 200 OK in 187ms (Views: 183.3ms | ActiveRecord: 1.2ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"page"=>"2", "testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (1.9ms)
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (30.8ms)
+Completed 200 OK in 155ms (Views: 151.5ms | ActiveRecord: 1.2ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"page"=>"3", "testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (2.0ms)
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 135ms (Views: 132.9ms | ActiveRecord: 0.8ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (3.6ms)
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (21.6ms)
+Completed 200 OK in 198ms (Views: 195.4ms | ActiveRecord: 0.8ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (4.7ms)
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (54.0ms)
+Completed 200 OK in 212ms (Views: 181.1ms | ActiveRecord: 2.5ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"page"=>"2", "testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (2.7ms)
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (18.7ms)
+Completed 200 OK in 129ms (Views: 123.9ms | ActiveRecord: 1.1ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (3.4ms)
+  Rendered testrun_apps/_form.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (25.9ms)
+Completed 200 OK in 141ms (Views: 137.6ms | ActiveRecord: 1.1ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (2.1ms)
+  Rendered testrun_apps/_form.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (26.3ms)
+Completed 200 OK in 141ms (Views: 137.6ms | ActiveRecord: 0.8ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"authenticity_token"=>"UZsmTZaHJgDuYlvQrVfaC55xFv5Ax8jirlhWY+5RWzSoo2f96nWXMW4AigKyH3C+cMo6UMLDrVA/Cyyl965vFQ==", "testrun_id"=>"9", "id"=>"382"}
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/edit.html.erb within layouts/application (14.9ms)
+Completed 200 OK in 202ms (Views: 155.9ms | ActiveRecord: 1.8ms)
+Processing by TestrunAppsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"VU5RPBDEMPjA2RO4oB6y/8hZAqSbT+pkNSP5gJ3DCXesdhCMbDaByUC7wmq/VhhKJuIuChlLj9akcINGhDw9Vg==", "app"=>{"Tester"=>"JackalKao", "TesterResult"=>"Pass", "TesterComment"=>"no comment"}, "commit"=>"Update App", "testrun_id"=>"9", "id"=>"382"}
+Redirected to http://localhost:3000/testruns/9/apps
+Completed 302 Found in 15ms (ActiveRecord: 1.9ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (3.7ms)
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.4ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.5ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (42.8ms)
+Completed 200 OK in 202ms (Views: 198.6ms | ActiveRecord: 1.5ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"AppInstallResult"=>"Fail", "apps"=>"#<App::ActiveRecord_AssociationRelation:0x007fb79ba88a18>", "testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (2.0ms)
+  Rendered testrun_apps/_form.html.erb (0.4ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (7.8ms)
+Completed 500 Internal Server Error in 13ms
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (4.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (28.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (24.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (51.4ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"AppInstallResult"=>"Fail", "apps"=>"#<App::ActiveRecord_AssociationRelation:0x007fb79ba88a18>", "testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (2.2ms)
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (8.4ms)
+Completed 500 Internal Server Error in 13ms
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.5ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"AppInstallResult"=>"Fail", "apps"=>"#<App::ActiveRecord_AssociationRelation:0x007fb79ba88a18>", "testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (2.6ms)
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (6.8ms)
+Completed 500 Internal Server Error in 11ms
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (3.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (23.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (15.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (31.7ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"AppNativeCode"=>"armeabi", "apps"=>"#<App::ActiveRecord_AssociationRelation:0x007fb79ba88a18>", "testrun"=>"9", "testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (2.9ms)
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (29.4ms)
+Completed 500 Internal Server Error in 35ms
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (21.7ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (28.0ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"AppNativeCode"=>"armeabi", "apps"=>"#<App::ActiveRecord_AssociationRelation:0x007fb79ba88a18>", "testrun"=>"9", "testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (2.3ms)
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.4ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (25.0ms)
+Completed 500 Internal Server Error in 29ms
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (7.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (22.8ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (17.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (34.8ms)
+Processing by TestrunAppsController#edit as HTML
+  Parameters: {"testrun_id"=>"9", "id"=>"382"}
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/edit.html.erb within layouts/application (8.9ms)
+Completed 200 OK in 128ms (Views: 124.5ms | ActiveRecord: 0.3ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (3.6ms)
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (37.7ms)
+Completed 200 OK in 249ms (Views: 227.7ms | ActiveRecord: 1.9ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"ApkResult"=>"Pass", "apps"=>"#<App::ActiveRecord_AssociationRelation:0x007fb797ff2e30>", "testrun"=>"9", "testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (2.1ms)
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 154ms (Views: 149.4ms | ActiveRecord: 1.1ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"ApkResult"=>"Fail", "apps"=>"#<App::ActiveRecord_AssociationRelation:0x007fb79cff2110>", "testrun"=>"9", "testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (2.0ms)
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (10.7ms)
+Completed 200 OK in 134ms (Views: 129.8ms | ActiveRecord: 1.0ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"ApkResult"=>"All", "apps"=>"#<App::ActiveRecord_AssociationRelation:0x007fb79ba00a78>", "testrun"=>"9", "testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (2.8ms)
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (25.4ms)
+Completed 200 OK in 137ms (Views: 133.6ms | ActiveRecord: 1.3ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"ApkResult"=>"Fail", "apps"=>"#<App::ActiveRecord_AssociationRelation:0x007fb799e88818>", "testrun"=>"9", "testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (4.0ms)
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 131ms (Views: 128.1ms | ActiveRecord: 0.7ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"ApkResult"=>"All", "apps"=>"#<App::ActiveRecord_AssociationRelation:0x007fb7946e09f8>", "testrun"=>"9", "testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (3.2ms)
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.4ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (28.3ms)
+Completed 200 OK in 213ms (Views: 210.2ms | ActiveRecord: 1.3ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"ApkResult"=>"All", "apps"=>"#<App::ActiveRecord_AssociationRelation:0x007fb7946e09f8>", "testrun"=>"9", "testrun_id"=>"9"}
+  Rendered testrun_apps/_filter.html.erb (3.7ms)
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (42.1ms)
+Completed 200 OK in 175ms (Views: 153.2ms | ActiveRecord: 2.4ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"ApkResult"=>"All", "apps"=>"#<App::ActiveRecord_AssociationRelation:0x007fb7946e09f8>", "testrun"=>"9", "testrun_id"=>"9"}
+Completed 404 Not Found in 6ms
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (6.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (26.0ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (21.5ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.6ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (44.6ms)
+Processing by TestrunsController#index as HTML
+Completed 404 Not Found in 7ms
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_source.erb (5.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (0.9ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/actionpack-4.2.0/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (19.2ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_markup.html.erb (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/console.js.erb within layouts/javascript (13.1ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.3ms)
+  Rendered /Library/Ruby/Gems/2.0.0/gems/web-console-2.1.2/lib/web_console/templates/index.html.erb (27.1ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 143ms (ActiveRecord: 19.9ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 117ms (Views: 115.7ms | ActiveRecord: 0.3ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"1"}
+  Rendered testrun_apps/_filter.html.erb (5.7ms)
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (30.4ms)
+Completed 200 OK in 150ms (Views: 144.9ms | ActiveRecord: 1.3ms)
+Processing by TestrunAppsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"730yVZIuxKGKqavM6tQPEHAVBjKnuAUuBtwIVf/wBLUWRXPl7tx1kArLeh71nKWlnq4qnCW8YJyXj3KT5g8wlA==", "testrun_id"=>"1", "id"=>"11"}
+Redirected to http://localhost:3000/testruns/1/apps
+Completed 302 Found in 7ms (ActiveRecord: 2.2ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"1"}
+  Rendered testrun_apps/_filter.html.erb (3.1ms)
+  Rendered testrun_apps/_form.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (22.2ms)
+Completed 200 OK in 140ms (Views: 138.2ms | ActiveRecord: 0.6ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (19.7ms)
+Completed 200 OK in 617ms (Views: 436.1ms | ActiveRecord: 2.3ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (64.1ms)
+Completed 200 OK in 218ms (Views: 211.2ms | ActiveRecord: 0.7ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"1"}
+  Rendered testrun_apps/_filter.html.erb (4.9ms)
+  Rendered testrun_apps/_form.html.erb (0.6ms)
+  Rendered testrun_apps/_apps.html.erb (1.0ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (111.5ms)
+Completed 200 OK in 287ms (Views: 267.8ms | ActiveRecord: 1.3ms)
+Processing by TestrunAppsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"pjkTrrHR85a4NLJyzvY+TVqgUYYZhD+Sl8c5kW95J4RtRamOff7c8r1vPhGHB10/6rIn6O9xDXWwjJIc7mLTIA==", "testrun_id"=>"1", "id"=>"1"}
+Redirected to http://localhost:3000/testruns/1/apps
+Completed 302 Found in 5ms (ActiveRecord: 1.5ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"1"}
+  Rendered testrun_apps/_filter.html.erb (2.8ms)
+  Rendered testrun_apps/_form.html.erb (0.4ms)
+  Rendered testrun_apps/_apps.html.erb (0.6ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (21.0ms)
+Completed 200 OK in 224ms (Views: 222.1ms | ActiveRecord: 0.5ms)
+Processing by TestrunAppsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"QO99od0bi0FoHKmlTWlqgij/sKbMaNfeade/R5+Dt9qLk8eBETSkJW1HJcYEmAnwmO3GyDqd5TlOnBTKHphDfg==", "testrun_id"=>"1", "id"=>"14"}
+Redirected to http://localhost:3000/testruns/1/apps
+Completed 302 Found in 13ms (ActiveRecord: 9.1ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"1"}
+  Rendered testrun_apps/_filter.html.erb (1.8ms)
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 212ms (Views: 209.7ms | ActiveRecord: 0.5ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 204ms (Views: 203.1ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.4ms)
+  Rendered testruns/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 259ms (Views: 257.8ms | ActiveRecord: 0.3ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 220ms (Views: 219.0ms | ActiveRecord: 0.1ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.1ms)
+  Rendered testruns/index.html.erb within layouts/application (3.9ms)
+Completed 200 OK in 252ms (Views: 250.9ms | ActiveRecord: 0.3ms)
+Processing by TestrunAppsController#index as HTML
+  Parameters: {"testrun_id"=>"1"}
+  Rendered testrun_apps/_filter.html.erb (1.7ms)
+  Rendered testrun_apps/_form.html.erb (0.0ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.3ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.2ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/_apps.html.erb (0.1ms)
+  Rendered testrun_apps/index.html.erb within layouts/application (23.7ms)
+Completed 200 OK in 219ms (Views: 216.3ms | ActiveRecord: 0.5ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 131ms (ActiveRecord: 20.5ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 212ms (ActiveRecord: 18.5ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 195ms (Views: 194.3ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"+QLgOtw7kbNGQEZfarN09IYlCTUYs2yHadTn1ccVG2IyfloaEBS+10MbyjwjQheGNjd/W+5GXmBOn0xYRg7vxg==", "id"=>"3"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 15ms (ActiveRecord: 10.2ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.1ms)
+  Rendered testruns/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 201ms (Views: 200.6ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"0gbI0S364DIJrWqSsQ0/IZm+in02WCF9nQmWTt877wQZenLx4dXPVgz25vH4/FxTKaz8E8CtE5q6Qj3DXiAboA==", "id"=>"2"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 13ms (ActiveRecord: 10.3ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 203ms (Views: 202.7ms | ActiveRecord: 0.1ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"mdn4TEJCSu295qRr8XmrH4gnFptTeJQozEYHSdy8yzlSpUJsjm1libi9KAi4iMhtODVg9aWNps/rDazEXac/nQ==", "id"=>"1"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 13ms (ActiveRecord: 10.5ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 202ms (Views: 201.1ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 195ms (ActiveRecord: 21.5ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 120ms (ActiveRecord: 19.7ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 197ms (Views: 196.2ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 227ms (ActiveRecord: 27.0ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 107ms (ActiveRecord: 18.3ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 194ms (Views: 193.1ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"q6aEFyTerjQKDlx3VPrA0oVcGufGgi/HKzVj4zZ+FyZg2j436PGBUA9V0BQdC6OgNU5siTB3HSAMfshut2Xjgg==", "id"=>"7"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 14ms (ActiveRecord: 10.9ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 196ms (Views: 195.2ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"IRRidgG/I9p5UaJ2DMc6mj7KdeU2SJX2pigw/sNjgAjqaNhWzZAMvnwKLhVFNlnojtgDi8C9pxGBY5tzQnh0rA==", "id"=>"6"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 12ms (ActiveRecord: 9.2ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 196ms (Views: 195.0ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"U0SlCyE9VkqDghk4H7UijQxwb7ZBsqEVqYBX0nNlOgaYOB8r7RJ5LobZlVtWREH/vGIZ2LdHk/KOy/xf8n7Oog==", "id"=>"4"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 13ms (ActiveRecord: 10.5ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 201ms (Views: 200.3ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"19vj+yFclCctAOTax2/kWjbV38Gp5y6UDKSLNCQMdyEcp1nb7XO7QyhbaLmOnocohsepr18SHHMr7yC5pReDhQ==", "id"=>"5"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 6ms (ActiveRecord: 3.0ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 196ms (Views: 194.9ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 179ms (ActiveRecord: 85.1ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 137ms (ActiveRecord: 22.4ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 259ms (Views: 257.9ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"o+KgzmS+FNMozuAcOPuTEEih+LfrLmw3yJe6WxOLCQFonhruqJE7ty2VbH9xCvBi+LOO2R3bXtDv3BHWkpD9pQ==", "id"=>"9"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 6ms (ActiveRecord: 2.3ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.1ms)
+  Rendered testruns/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 207ms (Views: 206.7ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 159ms (ActiveRecord: 26.7ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 115ms (ActiveRecord: 19.3ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.1ms)
+  Rendered testruns/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 195ms (Views: 193.9ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 176ms (ActiveRecord: 26.8ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 171ms (ActiveRecord: 20.3ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.1ms)
+  Rendered testruns/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 203ms (Views: 201.7ms | ActiveRecord: 0.3ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 123ms (ActiveRecord: 26.9ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 139ms (ActiveRecord: 20.8ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 251ms (Views: 249.9ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"VGd0jzX1sNNzo2yWyH9NlUsCb2kfqhsf+RngrRpPBxSfG86v+dqft3b44PWBji7n+xAZB+lfKfjeUksgm1TzsA==", "id"=>"15"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 15ms (ActiveRecord: 10.8ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (2.6ms)
+Completed 200 OK in 208ms (Views: 206.8ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"KXe7rrIP9Gd6hSFjam4scwTlhQr8KfdULWEWC+Qi5jTiCwGOfiDbA3/erQAjn08BtPfzZArcxbMKKr2GZTkSkA==", "id"=>"14"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 13ms (ActiveRecord: 10.3ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 252ms (Views: 251.7ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"U7x5zaPiakA7pPWSXXuTO/wFcqtsxJbMMv1qiA6x6F2YwMPtb81FJD7/efEUivBJTBcExZoxpCsVtsEFj6oc+Q==", "id"=>"13"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 13ms (ActiveRecord: 10.5ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 206ms (Views: 205.0ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"H0hMWdKHpo5TbnCUqO93BfQyLT2gX6GXsWU6VbfK42LUNPZ5HqiJ6lY1/PfhHhR3RCBbU1aqk3CWLpHYNtEXxg==", "id"=>"12"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 13ms (ActiveRecord: 10.0ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 204ms (Views: 203.8ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"S65gGN1YUptxPa+OSKnKq8MOnA4kXnClO08FN1jK25GA0to4EXd9/3RmI+0BWKnZcxzqYNKrQkIcBK662dEvNQ==", "id"=>"11"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 13ms (ActiveRecord: 10.0ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 205ms (Views: 204.2ms | ActiveRecord: 0.1ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"c73bxO1iePrmxonQuaIswZF30OSnh+QsQUQIELzNHnO4wWHkIU1XnuOdBbPwU0+zIWWmilFy1stmD6OdPdbq1w==", "id"=>"10"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 13ms (ActiveRecord: 9.9ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 216ms (Views: 215.2ms | ActiveRecord: 0.1ms)
+Processing by TestrunsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ZZzZ6p/5OKd3EMXvmfTozWvSLk4mh9lR8ErfoKqErmau4GPKU9YXw3JLSYzQBYu/28BYINBy67bXAXQtK59awg==", "id"=>"8"}
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 13ms (ActiveRecord: 10.0ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 198ms (Views: 197.0ms | ActiveRecord: 0.1ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 158ms (ActiveRecord: 21.0ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 255ms (Views: 254.2ms | ActiveRecord: 0.2ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 147ms (ActiveRecord: 54.8ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.0ms)
+  Rendered testruns/index.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 194ms (Views: 193.2ms | ActiveRecord: 0.1ms)
+Processing by TestrunsController#new as HTML
+Redirected to http://localhost:3000/testruns
+Completed 302 Found in 183ms (ActiveRecord: 21.1ms)
+Processing by TestrunsController#index as HTML
+  Rendered testruns/_form.html.erb (0.1ms)
+  Rendered testruns/index.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 198ms (Views: 197.0ms | ActiveRecord: 0.2ms)

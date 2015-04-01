@@ -25,6 +25,7 @@ ActiveRecord::Schema.define(version: 20150322141727) do
     t.string   "ApkResult"
     t.string   "AppInstallResult"
     t.string   "AppLaunchResult"
+    t.string   "AppMonkeyResult"
     t.integer  "testrun_id"
     t.datetime "created_at",           null: false
     t.datetime "updated_at",           null: false
@@ -32,7 +33,11 @@ ActiveRecord::Schema.define(version: 20150322141727) do
     t.string   "AppComment"
     t.string   "AppInstallFailReason"
     t.string   "AppLaunchFailReason"
-    t.string   "LogPath"
+    t.string   "AppMonkeyFailReason"
+    t.string   "LaunchLogPath"
+    t.string   "MonkeyLogPath"
+    t.string   "TTBugID"
+    t.string   "BugZillaBugID"
     t.string   "Tester"
     t.string   "TesterResult"
     t.string   "TesterComment"
@@ -42,11 +47,20 @@ ActiveRecord::Schema.define(version: 20150322141727) do
     t.string   "TestRun_Time"
     t.string   "TestRun_Path"
     t.string   "Product"
+    t.string   "Project"
     t.string   "SerialNumber"
     t.string   "DeviceVersion"
     t.string   "AndroidVersion"
-    t.datetime "created_at",     null: false
-    t.datetime "updated_at",     null: false
+    t.string   "SKU"
+    t.string   "ApkSKU"
+    t.string   "TestRun_TotalAppsCount"
+    t.string   "TestRun_TotalFailCount"
+    t.string   "TestRun_InstallFailCount"
+    t.string   "TestRun_LaunchRunningRail"
+    t.string   "TestRun_MonkeyRunningFail"
+    t.string   "TestRun_PassRate"
+    t.datetime "created_at",                null: false
+    t.datetime "updated_at",                null: false
   end
 
 end

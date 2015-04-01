@@ -12,6 +12,7 @@ class CreateApps < ActiveRecord::Migration
       t.string :ApkResult
       t.string :AppInstallResult
       t.string :AppLaunchResult
+      t.string :AppMonkeyResult
       t.integer :testrun_id
 
       t.timestamps null: false

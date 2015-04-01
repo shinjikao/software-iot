@@ -3,25 +3,26 @@ class TestrunAppsController < ApplicationController
 
 
     def index
-
+      sort_by =(params[:order] == 'AppNumber')? 'AppNumber' : 'created_at'
       @testrun = Testrun.find( params[:testrun_id])
       if params[:AppClass]
         @apps = @testrun.apps.where(:AppClass => params[:AppClass])
-
+        .order(sort_by).page(params[:page]).per(100)
       elsif params[:AppNativeCode]
-
         @apps = @testrun.apps.where("AppNativeCode LIKE ? "    , "#{params[:AppNativeCode]}%")
-
+        .order(sort_by).page(params[:page]).per(100)
       elsif  params[:ApkResult] && params[:ApkResult] != "All"
         @apps = @testrun.apps.where(:ApkResult => params[:ApkResult])
-
+        .order(sort_by).page(params[:page]).per(100)
       elsif params[:AppInstallResult]
         @apps = @testrun.apps.where(:AppInstallResult => params[:AppInstallResult])
+        .order(sort_by).page(params[:page]).per(100)
       elsif params[:AppLaunchResult]
         @apps = @testrun.apps.where(:AppLaunchResult  => params[:AppLaunchResult])
-
+        .order(sort_by).page(params[:page]).per(100)
       else
-        @apps = @testrun.apps
+
+        @apps = @testrun.apps.order(sort_by).page(params[:page]).per(100)
       end
     end
 
@@ -66,6 +67,7 @@ class TestrunAppsController < ApplicationController
     end
 
     def destroy
+      @testrun = Testrun.find( params[:testrun_id])
     	@app = @testrun.apps.find(params[:id])
     	@app.destroy
     	redirect_to testrun_apps_url(@testrun)

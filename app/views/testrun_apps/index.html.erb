@@ -1,3 +1,4 @@
+<%= link_to 'back index', testruns_path %>
 <div class="col-md-12">
 	<label>
 		<h2>TestRun Result <span style="font-size: 16pt" class="badge"><%= @apps.length %></span> </h2>
@@ -5,261 +6,48 @@
 	</label>
 </div>
 
-
-
-
 <div class="col-md-12">
 	<table class="table table-striped">
+      <!-- Filter -->
+      <%= render :partial => 'filter' %>
+      <!-- Title -->
+      <%= render :partial => 'form' %>
 
-      <thread>
-        <tr >
-          <th>
-
-          </th>
-          <th>
-            <!-- Single button -->
-            <div class="btn-group">
-              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                篩選 <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu" role="menu">
-                <li><%= link_to 'Application', testrun_apps_path(:AppClass => :Application,:apps => @apps ) %></li>
-                <li><%= link_to 'Game'       , testrun_apps_path(:AppClass => :Game,:apps => @apps) %></li>
-
-
-              </ul>
-            </div>
-          </th>
-          <th>
-
-          </th>
-          <th>
-
-          </th>
-
-          <th>
-
-          </th>
-          <th>
-
-          </th>
-
-          <th>
-
-            <div class="btn-group">
-              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                篩選 <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu" role="menu">
-                <li><%= link_to 'armeabi-v7a', testrun_apps_path(:AppNativeCode => 'armeabi-v7a',:apps => @apps , :testrun => @testrun) %></li>
-                <li><%= link_to 'armeabi', testrun_apps_path(:AppNativeCode => 'armeabi',:apps => @apps , :testrun => @testrun) %></li>
-                <li><%= link_to 'x86', testrun_apps_path(:AppNativeCode => 'x86',:apps => @apps , :testrun => @testrun) %></li>
-
-
-              </ul>
-            </div>
-
-
-
-
-          </th>
-          <th>
-
-          </th>
-          <th>
-            <div class="btn-group">
-              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                篩選 <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu" role="menu">
-                <li><%= link_to 'All', testrun_apps_path(:ApkResult => :All,:apps => @apps , :testrun => @testrun) %></li>
-                <li><%= link_to 'Pass', testrun_apps_path(:ApkResult => :Pass,:apps => @apps , :testrun => @testrun) %></li>
-                <li><%= link_to 'Fail', testrun_apps_path(:ApkResult => :Fail,:apps => @apps , :testrun => @testrun) %></li>
-
-              </ul>
-            </div>
-          </th>
-          <th>
-            <div class="btn-group">
-              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                篩選 <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu" role="menu">
-                <li><%= link_to 'Pass', testrun_apps_path(:AppInstallResult => :Pass,:apps => @apps) %></li>
-                <li><%= link_to 'Fail', testrun_apps_path(:AppInstallResult => :Fail,:apps => @apps) %></li>
-
-              </ul>
-            </div>
-          </th>
-
-          <th>
-
-
-          </th>
-
-
-          <th>
-            <div class="btn-group">
-              <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                篩選 <span class="caret"></span>
-              </button>
-              <ul class="dropdown-menu" role="menu">
-                <li><%= link_to 'Pass', testrun_apps_path(:AppLaunchResult => :Pass,:apps => @apps) %></li>
-                <li><%= link_to 'Fail', testrun_apps_path(:AppLaunchResult => :Fail,:apps => @apps) %></li>
-
-              </ul>
-            </div>
-          </th>
-          <th>
-
-
-          </th>
-          <th>
-
-          </th>
-
-          <th>
-
-          </th>
-
-          <th>
-
-          </th>
-        </tr>
-      </thread>
-<!-- Single button -->
-
-
-<thread>
-			<tr>
-				<th>
-					#
-				</th>
-				<th>
-					類別
-				</th>
-				<th>
-					分類
-				</th>
-				<th>
-					名稱
-				</th>
-				<th>
-					包裝名稱
-				</th>
-
-
-              <th>
-                版本
-
-              </th>
-
-                <th>
-                    NDK
-                </th>
-				<th>
-					測試狀態
-				</th>
-				<th>
-					測試結果(安裝＆啟動)
-				</th>
-                 <th>
-					安裝測試結果
-				</th>
-              <th>
-                安裝失敗原因
-              </th>
-				<th>
-					啟動測試結果
-				</th>
-              <th>
-                啟動失敗原因
-              </th>
-
-				<th>
-					 下載Log
-				</th>
-
-				<th>
-					覆測人
-				</th>
-
-				<th>
-					覆測結果
-				</th>
-                <th>
-
-                </th>
-			</tr>
-</thread>
-<tbody>
-
-
-<% @apps.each do |app| %>
-<tr>
-		<td><%= app.AppNumber %></td>
-		<td>
-          <span class="label label-warning"><%= app.AppClass %></span>
-        </td>
-		<td>
-          <span class="label label-info"> <%= app.AppCategory%></span>
-        </td>
-		<td><%= app.AppName %></td>
-
-		<td>
-			<span class="label label-success"><%= app.AppPackageName %></span>
-		</td>
-
-        <td><%= app.AppVersion %></td>
-        <td><%= app.AppNativeCode %></td>
-
-		<td><%= app.ApkStatus %></td>
-		<td><%= app.ApkResult %></td>
-		<td><%= app.AppInstallResult %></td>
-        <td><%= app.AppInstallFailReason %></td>
-		<td><%= app.AppLaunchResult %></td>
-        <td><%= app.AppLaunchFailReason %></td>
-	    <td><%= link_to 'Log', testrun_app_path(@testrun, app) %></td>
-        <td><%= app.Tester %></td>
-        <td><%= app.TesterResult %></td>
-          <!--<td class="form-group">
-
-
-              <select class="form-control" id="select">
-                <option>Nelson_Yeh</option>
-                <option>Jackal_Kao</option>
-                <option>Mandy_Chen</option>
-                <option>Eric_Jhang</option>
-                <option>JoeTZ_Chen</option>
-              </select>
-
-
-          </td>
-
-          <td class="form-group">
-
-            <input type="text" size="2" class="form-control" id="test_usr">
-
-          </td>
-          -->
+      <tbody>
+        <% @apps.each do |app| %>
+        <tr>
+          <%= render :partial => 'apps'  ,:locals => { :app => app} %>
 
           <td>
+            <div><%= link_to 'Launch Log', testrun_app_path(@testrun, app) %></div>
+            <div><%= link_to 'Monkey Log', testrun_app_path(@testrun, app) %></div>
+          </td>
+          <td>
 
-              <%= link_to  'Save', edit_testrun_app_path( @testrun , app), :class => 'btn btn-danger',:method => :get%>
+            <!-- Split button -->
+            <div class="btn-group">
+              <button type="button" class="btn btn-danger">Action</button>
+              <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                <span class="caret"></span>
+                <span class="sr-only">Toggle Dropdown</span>
+              </button>
+              <ul class="dropdown-menu" role="menu">
+                <li><%= link_to 'Edit', edit_testrun_app_path( @testrun , app),:method => :get%></li>
+                <li class="divider"></li>
+                <li><a href="#">Disable</a></li>
+                <li class="divider"></li>
+                <li> <%= link_to 'Delete', testrun_app_path( @testrun , app),:method => :delete%></li>
 
 
+              </ul>
+            </div>
           </td>
 
-
-
-</tr>
-
-<% end %>
-
-</tbody>
-	</table>
+        </tr>
+        <% end %>
+      </tbody>
+    </table>
 
 </div>
+<%= paginate @apps %>
 
-
-<%= link_to 'back index', testruns_path %>
